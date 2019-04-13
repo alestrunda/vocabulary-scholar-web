@@ -1,0 +1,715 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly if correct 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AnswerPreview
+    answered="school"
+    word="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="answer-preview__icon"
+        >
+          <NavigationCheck
+            color="#0f0"
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          />
+        </div>,
+        <div
+          className="answer-preview__answer"
+        >
+          school
+        </div>,
+        false,
+      ],
+      "className": "answer-preview answer-preview--correct",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavigationCheck
+              color="#0f0"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            />,
+            false,
+          ],
+          "className": "answer-preview__icon",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#0f0",
+              "style": Object {
+                "display": "block",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "school",
+          "className": "answer-preview__answer",
+        },
+        "ref": null,
+        "rendered": "school",
+        "type": "div",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="answer-preview__icon"
+          >
+            <NavigationCheck
+              color="#0f0"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            />
+          </div>,
+          <div
+            className="answer-preview__answer"
+          >
+            school
+          </div>,
+          false,
+        ],
+        "className": "answer-preview answer-preview--correct",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <NavigationCheck
+                color="#0f0"
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              />,
+              false,
+            ],
+            "className": "answer-preview__icon",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#0f0",
+                "style": Object {
+                  "display": "block",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "school",
+            "className": "answer-preview__answer",
+          },
+          "ref": null,
+          "rendered": "school",
+          "type": "div",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`renders correctly if wrong 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AnswerPreview
+    answered="car"
+    word="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="answer-preview__icon"
+        >
+          <NavigationClose
+            color="#f00"
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          />
+        </div>,
+        <div
+          className="answer-preview__answer"
+        >
+          school
+        </div>,
+        <div
+          className="answer-preview__answered"
+        >
+          You answered: 
+          <span
+            className="text-italic"
+          >
+            car
+          </span>
+        </div>,
+      ],
+      "className": "answer-preview answer-preview--wrong",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <NavigationClose
+              color="#f00"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            />,
+          ],
+          "className": "answer-preview__icon",
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#f00",
+              "style": Object {
+                "display": "block",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "school",
+          "className": "answer-preview__answer",
+        },
+        "ref": null,
+        "rendered": "school",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "You answered: ",
+            <span
+              className="text-italic"
+            >
+              car
+            </span>,
+          ],
+          "className": "answer-preview__answered",
+        },
+        "ref": null,
+        "rendered": Array [
+          "You answered: ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "car",
+              "className": "text-italic",
+            },
+            "ref": null,
+            "rendered": "car",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="answer-preview__icon"
+          >
+            <NavigationClose
+              color="#f00"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            />
+          </div>,
+          <div
+            className="answer-preview__answer"
+          >
+            school
+          </div>,
+          <div
+            className="answer-preview__answered"
+          >
+            You answered: 
+            <span
+              className="text-italic"
+            >
+              car
+            </span>
+          </div>,
+        ],
+        "className": "answer-preview answer-preview--wrong",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <NavigationClose
+                color="#f00"
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              />,
+            ],
+            "className": "answer-preview__icon",
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#f00",
+                "style": Object {
+                  "display": "block",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "school",
+            "className": "answer-preview__answer",
+          },
+          "ref": null,
+          "rendered": "school",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "You answered: ",
+              <span
+                className="text-italic"
+              >
+                car
+              </span>,
+            ],
+            "className": "answer-preview__answered",
+          },
+          "ref": null,
+          "rendered": Array [
+            "You answered: ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "car",
+                "className": "text-italic",
+              },
+              "ref": null,
+              "rendered": "car",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`renders correctly when no answer 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AnswerPreview
+    answered=""
+    word="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="answer-preview__icon"
+        >
+          
+          <NavigationClose
+            color="#f00"
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          />
+        </div>,
+        <div
+          className="answer-preview__answer"
+        >
+          school
+        </div>,
+        "",
+      ],
+      "className": "answer-preview answer-preview--wrong",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "",
+            <NavigationClose
+              color="#f00"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            />,
+          ],
+          "className": "answer-preview__icon",
+        },
+        "ref": null,
+        "rendered": Array [
+          "",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#f00",
+              "style": Object {
+                "display": "block",
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "school",
+          "className": "answer-preview__answer",
+        },
+        "ref": null,
+        "rendered": "school",
+        "type": "div",
+      },
+      "",
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="answer-preview__icon"
+          >
+            
+            <NavigationClose
+              color="#f00"
+              style={
+                Object {
+                  "display": "block",
+                }
+              }
+            />
+          </div>,
+          <div
+            className="answer-preview__answer"
+          >
+            school
+          </div>,
+          "",
+        ],
+        "className": "answer-preview answer-preview--wrong",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              <NavigationClose
+                color="#f00"
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
+              />,
+            ],
+            "className": "answer-preview__icon",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "color": "#f00",
+                "style": Object {
+                  "display": "block",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "school",
+            "className": "answer-preview__answer",
+          },
+          "ref": null,
+          "rendered": "school",
+          "type": "div",
+        },
+        "",
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

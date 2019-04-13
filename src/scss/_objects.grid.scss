@@ -1,0 +1,114 @@
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    @if map-has-key($grid_sizes, 'default') {
+        margin-left: #{- map-get($grid_sizes, 'default') + 'px'};
+    }
+    @else {
+        @warn "No default grid size found.";
+    }
+}
+
+    .grid--center {
+        justify-content: center;
+    }
+
+    /* grid size - gap between grid items */
+    @each $key, $value in $grid_sizes {
+        @if $key != 'default' {
+            .grid--#{$key} {
+                margin-left: #{- $value + 'px'};
+
+                > .grid__item {
+                    padding-left: #{$value + 'px'};
+                }
+            }
+        }
+    }
+
+    @if $framework-grid-vertical-aligns {
+        .grid--items-bottom {
+            align-items: flex-end;
+        }
+
+        .grid--items-center {
+            align-items: center;
+        }
+
+        .grid--items-top {
+            align-items: flex-start;
+        }
+    }
+
+.grid__item {
+    flex: 0 0 auto;
+    width: 100%;
+    @if map-has-key($grid_sizes, 'default') {
+        padding-left: #{map-get($grid_sizes, 'default') + 'px'};
+    }
+    @else {
+        @warn "No default grid size found.";
+    }
+}
+
+    @if $framework-grid-vertical-aligns {
+        .grid__item--v-center {
+            align-self: center;
+        }
+    }
+
+    /* grid item spacing after break */
+    @if $framework-grid-break-spacing {
+        @each $key in $breakpoints-grid {
+            @for $i from $grid-item-break-spacing-start through $grid-item-break-spacing-end {
+                .grid__item--break-#{$key}-#{$i * $grid-item-break-spacing-step} {
+                    @include break($key) {
+                        padding-top: ($i * $grid-item-break-spacing-step) + px;
+                    }
+                }
+            }
+        }
+    }
+
+    /* grid items ordering after break */
+    @if $framework-grid-break-ordering {
+        @each $key in $breakpoints-grid {
+            @for $i from $grid-item-break-ordering-start through $grid-item-break-ordering-end {
+                .grid__item--order-#{$key}-#{$i} {
+                    @include break($key) {
+                        order: $i;
+                    }
+                }
+            }
+        }
+    }
+
+
+/* generate grid spans */
+
+//non-responsive spans, example: .grid__item--xs-span-3
+@if length($breakpoints-grid) > 0 {
+    $key: nth($breakpoints-grid, 1);
+    @for $i from 1 through $grid_cols {
+        .grid__item--#{$key}-span-#{$i} {
+            flex: 0 0 auto;
+            width: #{$i / $grid_cols * 100 + '%'};
+        }
+    }
+}
+
+//responsive spans from the smallest breakpoint, example: .grid__item--sm-span-3, .grid__item--lg-span-8
+@if length($breakpoints-grid) > 1 {
+    @for $i from 2 through length($breakpoints-grid) {
+        $key: nth($breakpoints-grid, $i);
+        $key_break: nth($breakpoints-grid, $i - 1);
+        @for $i from 1 through $grid_cols {
+            .grid__item--#{$key}-span-#{$i} {
+                @include break-min($key_break) {
+                    flex: 0 0 auto;
+                    width: #{$i / $grid_cols * 100 + '%'};
+                }
+            }
+        }
+    }
+}

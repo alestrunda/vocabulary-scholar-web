@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListSelect
+    isSelected={true}
+    list={
+      Object {
+        "dateCreated": 1544482800000,
+        "dateViewed": 1544482800000,
+        "id": "1",
+        "name": "List 1",
+        "wordIDs": Array [
+          "vigorous",
+          "travel",
+          "car",
+        ],
+      }
+    }
+    onClick={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="list-select__icon"
+        >
+          <NavigationCheck
+            color="#fff"
+          />
+        </div>,
+        <h3
+          className="text-wrap"
+        >
+          List 1
+        </h3>,
+        <p>
+          Words: 
+          3
+        </p>,
+      ],
+      "className": "list-select active",
+      "onClick": [Function],
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <NavigationCheck
+            color="#fff"
+          />,
+          "className": "list-select__icon",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "color": "#fff",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "List 1",
+          "className": "text-wrap",
+        },
+        "ref": null,
+        "rendered": "List 1",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Words: ",
+            3,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Words: ",
+          3,
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="list-select__icon"
+          >
+            <NavigationCheck
+              color="#fff"
+            />
+          </div>,
+          <h3
+            className="text-wrap"
+          >
+            List 1
+          </h3>,
+          <p>
+            Words: 
+            3
+          </p>,
+        ],
+        "className": "list-select active",
+        "onClick": [Function],
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <NavigationCheck
+              color="#fff"
+            />,
+            "className": "list-select__icon",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "color": "#fff",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "List 1",
+            "className": "text-wrap",
+          },
+          "ref": null,
+          "rendered": "List 1",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "Words: ",
+              3,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "Words: ",
+            3,
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,0 +1,17 @@
+.dropdown {
+    position: absolute;
+    min-width: 150px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+    @include z-index(dropdown);
+}
+
+.dropdown__item-wrapper {
+    display: block;
+
+    &:not(:last-of-type) {
+        border-bottom: 1px solid map-get($colors, light);
+    }
+}

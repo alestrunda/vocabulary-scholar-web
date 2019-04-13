@@ -1,0 +1,46 @@
+.lesson-details__head {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.lesson-running {
+    position: relative;
+}
+
+.lesson-running__btns {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+}
+
+.lesson-running__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+
+    .lesson-running--unactive & {
+        opacity: 0.15;
+    }
+}
+
+.lesson-running__steps {
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.lesson-running__time {
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    font-size: 18px;
+    font-weight: 700;
+}

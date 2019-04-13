@@ -1,0 +1,1471 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WordListsEdit
+    lists={
+      Array [
+        Object {
+          "dateCreated": 1544482800000,
+          "dateViewed": 1532028111990,
+          "id": "1",
+          "name": "List name",
+          "wordIDs": Array [
+            "word1",
+            "word2",
+          ],
+        },
+        Object {
+          "dateCreated": 1544482800000,
+          "dateViewed": 1532028111990,
+          "id": "2",
+          "name": "List 2 name",
+          "wordIDs": Array [
+            "word2",
+            "word3",
+          ],
+        },
+      ]
+    }
+    onListSelected={[MockFunction]}
+    wordID="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="mb20"
+        />,
+        <div
+          className="text-center"
+        >
+          <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Edit lists"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />
+        </div>,
+        <Popup
+          isActive={false}
+          onClose={[Function]}
+          title="Set lists"
+        >
+          <div
+            className="grid grid--small text-center"
+          >
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "1",
+                    "name": "List name",
+                    "wordIDs": Array [
+                      "word1",
+                      "word2",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "2",
+                    "name": "List 2 name",
+                    "wordIDs": Array [
+                      "word2",
+                      "word3",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+        </Popup>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "mb20",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Edit lists"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />,
+          "className": "text-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "fullWidth": false,
+            "label": "Edit lists",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <div
+            className="grid grid--small text-center"
+          >
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "1",
+                    "name": "List name",
+                    "wordIDs": Array [
+                      "word1",
+                      "word2",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "2",
+                    "name": "List 2 name",
+                    "wordIDs": Array [
+                      "word2",
+                      "word3",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+          </div>,
+          "isActive": false,
+          "onClose": [Function],
+          "title": "Set lists",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>,
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>,
+            ],
+            "className": "grid grid--small text-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />,
+                "className": "grid__item grid__item--sm-span-6 mb10",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "isSelected": false,
+                  "list": Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "1",
+                    "name": "List name",
+                    "wordIDs": Array [
+                      "word1",
+                      "word2",
+                    ],
+                  },
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />,
+                "className": "grid__item grid__item--sm-span-6 mb10",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "isSelected": false,
+                  "list": Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "2",
+                    "name": "List 2 name",
+                    "wordIDs": Array [
+                      "word2",
+                      "word3",
+                    ],
+                  },
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="mb20"
+          />,
+          <div
+            className="text-center"
+          >
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Edit lists"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />
+          </div>,
+          <Popup
+            isActive={false}
+            onClose={[Function]}
+            title="Set lists"
+          >
+            <div
+              className="grid grid--small text-center"
+            >
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+            </div>
+          </Popup>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "mb20",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Edit lists"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />,
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Edit lists",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              className="grid grid--small text-center"
+            >
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+            </div>,
+            "isActive": false,
+            "onClose": [Function],
+            "title": "Set lists",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="grid__item grid__item--sm-span-6 mb10"
+                >
+                  <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "1",
+                        "name": "List name",
+                        "wordIDs": Array [
+                          "word1",
+                          "word2",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>,
+                <div
+                  className="grid__item grid__item--sm-span-6 mb10"
+                >
+                  <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "2",
+                        "name": "List 2 name",
+                        "wordIDs": Array [
+                          "word2",
+                          "word3",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>,
+              ],
+              "className": "grid grid--small text-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "1",
+                        "name": "List name",
+                        "wordIDs": Array [
+                          "word1",
+                          "word2",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />,
+                  "className": "grid__item grid__item--sm-span-6 mb10",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "isSelected": false,
+                    "list": Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    },
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "2",
+                        "name": "List 2 name",
+                        "wordIDs": Array [
+                          "word2",
+                          "word3",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />,
+                  "className": "grid__item grid__item--sm-span-6 mb10",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "isSelected": false,
+                    "list": Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    },
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`renders correctly opened popup 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WordListsEdit
+    lists={
+      Array [
+        Object {
+          "dateCreated": 1544482800000,
+          "dateViewed": 1532028111990,
+          "id": "1",
+          "name": "List name",
+          "wordIDs": Array [
+            "word1",
+            "word2",
+          ],
+        },
+        Object {
+          "dateCreated": 1544482800000,
+          "dateViewed": 1532028111990,
+          "id": "2",
+          "name": "List 2 name",
+          "wordIDs": Array [
+            "word2",
+            "word3",
+          ],
+        },
+      ]
+    }
+    onListSelected={[MockFunction]}
+    wordID="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="mb20"
+        />,
+        <div
+          className="text-center"
+        >
+          <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Edit lists"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />
+        </div>,
+        <Popup
+          isActive={true}
+          onClose={[Function]}
+          title="Set lists"
+        >
+          <div
+            className="grid grid--small text-center"
+          >
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "1",
+                    "name": "List name",
+                    "wordIDs": Array [
+                      "word1",
+                      "word2",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "2",
+                    "name": "List 2 name",
+                    "wordIDs": Array [
+                      "word2",
+                      "word3",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+          </div>
+        </Popup>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "mb20",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Edit lists"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />,
+          "className": "text-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "fullWidth": false,
+            "label": "Edit lists",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <div
+            className="grid grid--small text-center"
+          >
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "1",
+                    "name": "List name",
+                    "wordIDs": Array [
+                      "word1",
+                      "word2",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+            <div
+              className="grid__item grid__item--sm-span-6 mb10"
+            >
+              <ListSelect
+                isSelected={false}
+                list={
+                  Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "2",
+                    "name": "List 2 name",
+                    "wordIDs": Array [
+                      "word2",
+                      "word3",
+                    ],
+                  }
+                }
+                onClick={[Function]}
+              />
+            </div>
+          </div>,
+          "isActive": true,
+          "onClose": [Function],
+          "title": "Set lists",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>,
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>,
+            ],
+            "className": "grid grid--small text-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />,
+                "className": "grid__item grid__item--sm-span-6 mb10",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "isSelected": false,
+                  "list": Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "1",
+                    "name": "List name",
+                    "wordIDs": Array [
+                      "word1",
+                      "word2",
+                    ],
+                  },
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />,
+                "className": "grid__item grid__item--sm-span-6 mb10",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "isSelected": false,
+                  "list": Object {
+                    "dateCreated": 1544482800000,
+                    "dateViewed": 1532028111990,
+                    "id": "2",
+                    "name": "List 2 name",
+                    "wordIDs": Array [
+                      "word2",
+                      "word3",
+                    ],
+                  },
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="mb20"
+          />,
+          <div
+            className="text-center"
+          >
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Edit lists"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />
+          </div>,
+          <Popup
+            isActive={true}
+            onClose={[Function]}
+            title="Set lists"
+          >
+            <div
+              className="grid grid--small text-center"
+            >
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+            </div>
+          </Popup>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "mb20",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Edit lists"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />,
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Edit lists",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              className="grid grid--small text-center"
+            >
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+              <div
+                className="grid__item grid__item--sm-span-6 mb10"
+              >
+                <ListSelect
+                  isSelected={false}
+                  list={
+                    Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    }
+                  }
+                  onClick={[Function]}
+                />
+              </div>
+            </div>,
+            "isActive": true,
+            "onClose": [Function],
+            "title": "Set lists",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="grid__item grid__item--sm-span-6 mb10"
+                >
+                  <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "1",
+                        "name": "List name",
+                        "wordIDs": Array [
+                          "word1",
+                          "word2",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>,
+                <div
+                  className="grid__item grid__item--sm-span-6 mb10"
+                >
+                  <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "2",
+                        "name": "List 2 name",
+                        "wordIDs": Array [
+                          "word2",
+                          "word3",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />
+                </div>,
+              ],
+              "className": "grid grid--small text-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "1",
+                        "name": "List name",
+                        "wordIDs": Array [
+                          "word1",
+                          "word2",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />,
+                  "className": "grid__item grid__item--sm-span-6 mb10",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "isSelected": false,
+                    "list": Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "1",
+                      "name": "List name",
+                      "wordIDs": Array [
+                        "word1",
+                        "word2",
+                      ],
+                    },
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": "2",
+                "nodeType": "host",
+                "props": Object {
+                  "children": <ListSelect
+                    isSelected={false}
+                    list={
+                      Object {
+                        "dateCreated": 1544482800000,
+                        "dateViewed": 1532028111990,
+                        "id": "2",
+                        "name": "List 2 name",
+                        "wordIDs": Array [
+                          "word2",
+                          "word3",
+                        ],
+                      }
+                    }
+                    onClick={[Function]}
+                  />,
+                  "className": "grid__item grid__item--sm-span-6 mb10",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "isSelected": false,
+                    "list": Object {
+                      "dateCreated": 1544482800000,
+                      "dateViewed": 1532028111990,
+                      "id": "2",
+                      "name": "List 2 name",
+                      "wordIDs": Array [
+                        "word2",
+                        "word3",
+                      ],
+                    },
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

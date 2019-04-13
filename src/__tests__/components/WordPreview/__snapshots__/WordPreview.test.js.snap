@@ -1,0 +1,1183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders all props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WordPreview
+    dateAdded={1530828000000}
+    dateRated={1533506400000}
+    dateViewed={1536184800000}
+    id="school"
+    onRating={[MockFunction]}
+    ratings={
+      Array [
+        4,
+        1,
+        5,
+        2,
+        3,
+      ]
+    }
+    word="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          className="word-preview__inner"
+          to="/word/school"
+        >
+          <div
+            className="word-preview__content"
+          >
+            <h3
+              className="word-preview__title"
+            >
+              School
+            </h3>
+            <div
+              className="word-preview__details"
+            >
+              <span
+                className="word-preview__meta"
+              >
+                Last viewed:
+                 
+                <span
+                  className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                >
+                  Sep 6. 2018
+                </span>
+              </span>
+              <span
+                className="word-preview__meta"
+              >
+                Last rated:
+                 
+                <span
+                  className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                >
+                  Aug 6. 2018
+                </span>
+              </span>
+            </div>
+          </div>
+          <div
+            className="word-preview__value"
+          >
+            <div
+              className="word-preview__value-inner text-huge text-font-alt text-weight-bold"
+            >
+              <RatingStars
+                colorActive="#00adb5"
+                colorUnactive="#ccc"
+                iconSize={15}
+                length={5}
+                stars={3}
+              />
+            </div>
+          </div>
+        </Link>,
+        <div
+          className="word-preview__rating"
+        >
+          <RatingIcons
+            iconSize={20}
+            mini={true}
+            onCorrect={[Function]}
+            onWrong={[Function]}
+          />
+        </div>,
+      ],
+      "className": "word-preview",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="word-preview__content"
+            >
+              <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>
+              <div
+                className="word-preview__details"
+              >
+                <span
+                  className="word-preview__meta"
+                >
+                  Last viewed:
+                   
+                  <span
+                    className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                  >
+                    Sep 6. 2018
+                  </span>
+                </span>
+                <span
+                  className="word-preview__meta"
+                >
+                  Last rated:
+                   
+                  <span
+                    className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                  >
+                    Aug 6. 2018
+                  </span>
+                </span>
+              </div>
+            </div>,
+            <div
+              className="word-preview__value"
+            >
+              <div
+                className="word-preview__value-inner text-huge text-font-alt text-weight-bold"
+              >
+                <RatingStars
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={15}
+                  length={5}
+                  stars={3}
+                />
+              </div>
+            </div>,
+          ],
+          "className": "word-preview__inner",
+          "to": "/word/school",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="word-preview__title"
+                >
+                  School
+                </h3>,
+                <div
+                  className="word-preview__details"
+                >
+                  <span
+                    className="word-preview__meta"
+                  >
+                    Last viewed:
+                     
+                    <span
+                      className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                    >
+                      Sep 6. 2018
+                    </span>
+                  </span>
+                  <span
+                    className="word-preview__meta"
+                  >
+                    Last rated:
+                     
+                    <span
+                      className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                    >
+                      Aug 6. 2018
+                    </span>
+                  </span>
+                </div>,
+              ],
+              "className": "word-preview__content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "School",
+                  "className": "word-preview__title",
+                },
+                "ref": null,
+                "rendered": "School",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      className="word-preview__meta"
+                    >
+                      Last viewed:
+                       
+                      <span
+                        className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                      >
+                        Sep 6. 2018
+                      </span>
+                    </span>,
+                    <span
+                      className="word-preview__meta"
+                    >
+                      Last rated:
+                       
+                      <span
+                        className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                      >
+                        Aug 6. 2018
+                      </span>
+                    </span>,
+                  ],
+                  "className": "word-preview__details",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Last viewed:",
+                        " ",
+                        <span
+                          className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                        >
+                          Sep 6. 2018
+                        </span>,
+                      ],
+                      "className": "word-preview__meta",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Last viewed:",
+                      " ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Sep 6. 2018",
+                          "className": "word-preview__meta--last-viewed text-weight-normal text-nowrap",
+                        },
+                        "ref": null,
+                        "rendered": "Sep 6. 2018",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        "Last rated:",
+                        " ",
+                        <span
+                          className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                        >
+                          Aug 6. 2018
+                        </span>,
+                      ],
+                      "className": "word-preview__meta",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      "Last rated:",
+                      " ",
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Aug 6. 2018",
+                          "className": "word-preview__meta--last-rated text-weight-normal text-nowrap",
+                        },
+                        "ref": null,
+                        "rendered": "Aug 6. 2018",
+                        "type": "span",
+                      },
+                    ],
+                    "type": "span",
+                  },
+                ],
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="word-preview__value-inner text-huge text-font-alt text-weight-bold"
+              >
+                <RatingStars
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={15}
+                  length={5}
+                  stars={3}
+                />
+              </div>,
+              "className": "word-preview__value",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <RatingStars
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={15}
+                  length={5}
+                  stars={3}
+                />,
+                "className": "word-preview__value-inner text-huge text-font-alt text-weight-bold",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "colorActive": "#00adb5",
+                  "colorUnactive": "#ccc",
+                  "iconSize": 15,
+                  "length": 5,
+                  "stars": 3,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "div",
+            },
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RatingIcons
+            iconSize={20}
+            mini={true}
+            onCorrect={[Function]}
+            onWrong={[Function]}
+          />,
+          "className": "word-preview__rating",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "iconSize": 20,
+            "mini": true,
+            "onCorrect": [Function],
+            "onWrong": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="word-preview__inner"
+            to="/word/school"
+          >
+            <div
+              className="word-preview__content"
+            >
+              <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>
+              <div
+                className="word-preview__details"
+              >
+                <span
+                  className="word-preview__meta"
+                >
+                  Last viewed:
+                   
+                  <span
+                    className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                  >
+                    Sep 6. 2018
+                  </span>
+                </span>
+                <span
+                  className="word-preview__meta"
+                >
+                  Last rated:
+                   
+                  <span
+                    className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                  >
+                    Aug 6. 2018
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div
+              className="word-preview__value"
+            >
+              <div
+                className="word-preview__value-inner text-huge text-font-alt text-weight-bold"
+              >
+                <RatingStars
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={15}
+                  length={5}
+                  stars={3}
+                />
+              </div>
+            </div>
+          </Link>,
+          <div
+            className="word-preview__rating"
+          >
+            <RatingIcons
+              iconSize={20}
+              mini={true}
+              onCorrect={[Function]}
+              onWrong={[Function]}
+            />
+          </div>,
+        ],
+        "className": "word-preview",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="word-preview__content"
+              >
+                <h3
+                  className="word-preview__title"
+                >
+                  School
+                </h3>
+                <div
+                  className="word-preview__details"
+                >
+                  <span
+                    className="word-preview__meta"
+                  >
+                    Last viewed:
+                     
+                    <span
+                      className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                    >
+                      Sep 6. 2018
+                    </span>
+                  </span>
+                  <span
+                    className="word-preview__meta"
+                  >
+                    Last rated:
+                     
+                    <span
+                      className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                    >
+                      Aug 6. 2018
+                    </span>
+                  </span>
+                </div>
+              </div>,
+              <div
+                className="word-preview__value"
+              >
+                <div
+                  className="word-preview__value-inner text-huge text-font-alt text-weight-bold"
+                >
+                  <RatingStars
+                    colorActive="#00adb5"
+                    colorUnactive="#ccc"
+                    iconSize={15}
+                    length={5}
+                    stars={3}
+                  />
+                </div>
+              </div>,
+            ],
+            "className": "word-preview__inner",
+            "to": "/word/school",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="word-preview__title"
+                  >
+                    School
+                  </h3>,
+                  <div
+                    className="word-preview__details"
+                  >
+                    <span
+                      className="word-preview__meta"
+                    >
+                      Last viewed:
+                       
+                      <span
+                        className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                      >
+                        Sep 6. 2018
+                      </span>
+                    </span>
+                    <span
+                      className="word-preview__meta"
+                    >
+                      Last rated:
+                       
+                      <span
+                        className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                      >
+                        Aug 6. 2018
+                      </span>
+                    </span>
+                  </div>,
+                ],
+                "className": "word-preview__content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "School",
+                    "className": "word-preview__title",
+                  },
+                  "ref": null,
+                  "rendered": "School",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <span
+                        className="word-preview__meta"
+                      >
+                        Last viewed:
+                         
+                        <span
+                          className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                        >
+                          Sep 6. 2018
+                        </span>
+                      </span>,
+                      <span
+                        className="word-preview__meta"
+                      >
+                        Last rated:
+                         
+                        <span
+                          className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                        >
+                          Aug 6. 2018
+                        </span>
+                      </span>,
+                    ],
+                    "className": "word-preview__details",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Last viewed:",
+                          " ",
+                          <span
+                            className="word-preview__meta--last-viewed text-weight-normal text-nowrap"
+                          >
+                            Sep 6. 2018
+                          </span>,
+                        ],
+                        "className": "word-preview__meta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Last viewed:",
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Sep 6. 2018",
+                            "className": "word-preview__meta--last-viewed text-weight-normal text-nowrap",
+                          },
+                          "ref": null,
+                          "rendered": "Sep 6. 2018",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "span",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Last rated:",
+                          " ",
+                          <span
+                            className="word-preview__meta--last-rated text-weight-normal text-nowrap"
+                          >
+                            Aug 6. 2018
+                          </span>,
+                        ],
+                        "className": "word-preview__meta",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Last rated:",
+                        " ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Aug 6. 2018",
+                            "className": "word-preview__meta--last-rated text-weight-normal text-nowrap",
+                          },
+                          "ref": null,
+                          "rendered": "Aug 6. 2018",
+                          "type": "span",
+                        },
+                      ],
+                      "type": "span",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="word-preview__value-inner text-huge text-font-alt text-weight-bold"
+                >
+                  <RatingStars
+                    colorActive="#00adb5"
+                    colorUnactive="#ccc"
+                    iconSize={15}
+                    length={5}
+                    stars={3}
+                  />
+                </div>,
+                "className": "word-preview__value",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <RatingStars
+                    colorActive="#00adb5"
+                    colorUnactive="#ccc"
+                    iconSize={15}
+                    length={5}
+                    stars={3}
+                  />,
+                  "className": "word-preview__value-inner text-huge text-font-alt text-weight-bold",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "colorActive": "#00adb5",
+                    "colorUnactive": "#ccc",
+                    "iconSize": 15,
+                    "length": 5,
+                    "stars": 3,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RatingIcons
+              iconSize={20}
+              mini={true}
+              onCorrect={[Function]}
+              onWrong={[Function]}
+            />,
+            "className": "word-preview__rating",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "iconSize": 20,
+              "mini": true,
+              "onCorrect": [Function],
+              "onWrong": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`renders required props 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WordPreview
+    id="school"
+    onRating={[MockFunction]}
+    word="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Link
+          className="word-preview__inner"
+          to="/word/school"
+        >
+          <div
+            className="word-preview__content"
+          >
+            <h3
+              className="word-preview__title"
+            >
+              School
+            </h3>
+          </div>
+          <div
+            className="word-preview__value"
+          >
+            not rated yet
+          </div>
+        </Link>,
+        <div
+          className="word-preview__rating"
+        >
+          <RatingIcons
+            iconSize={20}
+            mini={true}
+            onCorrect={[Function]}
+            onWrong={[Function]}
+          />
+        </div>,
+      ],
+      "className": "word-preview",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="word-preview__content"
+            >
+              <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>
+            </div>,
+            <div
+              className="word-preview__value"
+            >
+              not rated yet
+            </div>,
+          ],
+          "className": "word-preview__inner",
+          "to": "/word/school",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h3
+                  className="word-preview__title"
+                >
+                  School
+                </h3>,
+                undefined,
+              ],
+              "className": "word-preview__content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "School",
+                  "className": "word-preview__title",
+                },
+                "ref": null,
+                "rendered": "School",
+                "type": "h3",
+              },
+              undefined,
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "not rated yet",
+              "className": "word-preview__value",
+            },
+            "ref": null,
+            "rendered": "not rated yet",
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RatingIcons
+            iconSize={20}
+            mini={true}
+            onCorrect={[Function]}
+            onWrong={[Function]}
+          />,
+          "className": "word-preview__rating",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "iconSize": 20,
+            "mini": true,
+            "onCorrect": [Function],
+            "onWrong": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Link
+            className="word-preview__inner"
+            to="/word/school"
+          >
+            <div
+              className="word-preview__content"
+            >
+              <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>
+            </div>
+            <div
+              className="word-preview__value"
+            >
+              not rated yet
+            </div>
+          </Link>,
+          <div
+            className="word-preview__rating"
+          >
+            <RatingIcons
+              iconSize={20}
+              mini={true}
+              onCorrect={[Function]}
+              onWrong={[Function]}
+            />
+          </div>,
+        ],
+        "className": "word-preview",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <div
+                className="word-preview__content"
+              >
+                <h3
+                  className="word-preview__title"
+                >
+                  School
+                </h3>
+              </div>,
+              <div
+                className="word-preview__value"
+              >
+                not rated yet
+              </div>,
+            ],
+            "className": "word-preview__inner",
+            "to": "/word/school",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <h3
+                    className="word-preview__title"
+                  >
+                    School
+                  </h3>,
+                  undefined,
+                ],
+                "className": "word-preview__content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "School",
+                    "className": "word-preview__title",
+                  },
+                  "ref": null,
+                  "rendered": "School",
+                  "type": "h3",
+                },
+                undefined,
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "not rated yet",
+                "className": "word-preview__value",
+              },
+              "ref": null,
+              "rendered": "not rated yet",
+              "type": "div",
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RatingIcons
+              iconSize={20}
+              mini={true}
+              onCorrect={[Function]}
+              onWrong={[Function]}
+            />,
+            "className": "word-preview__rating",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "iconSize": 20,
+              "mini": true,
+              "onCorrect": [Function],
+              "onWrong": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

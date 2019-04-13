@@ -1,0 +1,27 @@
+.popup {
+    position: absolute;
+    top: 0;
+    width: 90%;
+    left: 50%;
+    margin-top: 15px;
+    transform: translateX(-50%);
+    max-width: 450px;
+    padding: 20px 20px 0 20px;
+    overflow: auto;
+    max-height: calc(100% - 30px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.35s ease-out, visibility 0.35s ease-out !important;
+    @include z-index(popup);
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    @include break(sm) {
+        width: 95%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

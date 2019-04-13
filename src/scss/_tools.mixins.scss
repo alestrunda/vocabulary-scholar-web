@@ -1,0 +1,106 @@
+@mixin clearfix {
+    &::before,
+    &::after {
+        content: "";
+        display: table;
+    }
+
+    &::after {
+        clear: both;
+    }
+}
+
+
+
+@mixin z-index($index_name) {
+    $z_index: map-get($z-indexes, $index_name);
+    @if $z_index == null {
+        @warn "unknown z-index key '#{$index_name}'";
+    }
+    @else {
+	    z-index: $z_index;
+    }
+}
+
+
+
+@mixin parallax-bg {
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-size: auto !important;
+}
+
+
+
+//breakpoints
+@mixin break($size) {
+    $breakpoint: map-get($breakpoints-global, $size);
+    @if $breakpoint == null {
+        @error "unknown breakpoint key '#{$size}'";
+    }
+    @media (max-width: $breakpoint + px) {
+        @content;
+    }
+}
+@mixin break-min($size) {
+    $breakpoint: map-get($breakpoints-global, $size);
+    @if $breakpoint == null {
+        @error "unknown breakpoint key '#{$size}'";
+    }
+    @media (min-width: $breakpoint + 1 + px) {
+        @content;
+    }
+}
+@mixin break-range($size_min, $size_max) {
+    $breakpoint-min: map-get($breakpoints-global, $size_min);
+    $breakpoint-max: map-get($breakpoints-global, $size_max);
+    @if $breakpoint-min == null {
+        @error "unknown breakpoint key '#{$size_min}'";
+    }
+    @if $breakpoint-max == null {
+        @error "unknown breakpoint key '#{$size_max}'";
+    }
+    @media (min-width: $breakpoint-min + 1 + px) and (max-width: $breakpoint-max + px) {
+        @content;
+    }
+}
+
+/* Usage:
+.el {
+  display: none;
+
+  @include break(sm) {
+    display: block;
+  }
+}
+*/
+
+
+
+@mixin retina($ratio: 2) {
+    @if $ratio == 2 {
+        //there should be from 1.5, not 2 - some devices really have 1.5 pixel ratio
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+        only screen and (min-resolution: 144dpi) {
+            @content;
+        }
+    }
+    @else if $ratio == 3 {
+        @media only screen and (-webkit-min-device-pixel-ratio: 3),
+        only screen and (min-resolution: 288dpi) {
+            @content;
+        }
+    }
+}
+
+/* Usage:
+.el {
+  display: none;
+
+  @include retina() {
+    display: block;
+  }
+}
+*/

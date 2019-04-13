@@ -1,0 +1,49 @@
+.answer-preview {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 8px 10px 8px 45px;
+
+    &:not(:last-of-type) {
+        border-bottom: 1px solid $color-border;
+    }
+
+    @include break(xs) {
+        flex-wrap: wrap;
+    }
+}
+
+.answer-preview--correct {
+    background-color: rgba(0, 255, 0, 0.05);
+}
+
+.answer-preview--wrong {
+    background-color: rgba(255, 0, 0, 0.05);
+}
+
+.answer-preview__answer {
+    min-width: 100px;
+    font-weight: 700;
+
+    @include break(xs) {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.answer-preview__answered {
+    padding-left: 20px;
+    flex: 1;
+
+    @include break(xs) {
+        margin-top: 5px;
+        padding-left: 0;
+    }
+}
+
+.answer-preview__icon {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+}

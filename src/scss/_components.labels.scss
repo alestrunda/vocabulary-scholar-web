@@ -1,0 +1,16 @@
+.label {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background-color: map-get($map: $colors, $key: main);
+  color: #fff;
+  transition: all 0.3s ease-out;
+  box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
+  margin-right: 5px;
+
+  &:focus,
+  &:hover {
+    background-color: #ccc;
+    color: map-get($map: $colors, $key: dark);
+  }
+}

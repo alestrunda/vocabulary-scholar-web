@@ -1,0 +1,37 @@
+.rating-icons {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-icons--big {
+    width: 150px;
+}
+
+.rating-icons__btn--correct {
+    background-color: #0f0;
+}
+
+.rating-icons__btn--wrong {
+    background-color: #f00;
+}
+
+.rating-icons__icon {
+    width: 10px;
+}
+
+.rating-stars {
+    position: relative;
+}
+
+.rating-stars__active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.rating-stars__unactive {
+    display: flex;
+    justify-content: flex-end;
+}

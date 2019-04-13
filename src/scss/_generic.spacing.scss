@@ -1,0 +1,57 @@
+/*
+ * MARGINS, PADDINGS
+ */
+
+$offset_types: (
+	m: margin,
+	p: padding
+);
+
+$directions: (
+	t: top,
+	r: right,
+	b: bottom,
+	l: left
+);
+
+
+@if $framework-spacing-reset {
+	@each $key, $value in $offset_types {
+		.#{$key}0 {
+			#{$value}: 0 !important;
+		}
+	}
+}
+
+@if $framework-spacing-direction-reset {
+	@each $d_key, $d_value in $directions {
+		@each $o_key, $o_value in $offset_types {
+			.#{$o_key}#{$d_key}0 {
+				#{$o_value}-#{$d_value}: 0 !important;
+			}
+		}
+	}
+}
+
+//margin direction from 5 to 50
+@if $framework-spacing-direction {
+	@each $key, $value in $directions {
+		@for $i from 1 through 12 {
+			.m#{$key}#{$i * 5} { margin-#{$value}: $i * 5px; }
+		}
+	}
+}
+
+//margins step 5px
+@if $framework-spacing-single-step-5 {
+	@for $i from $framework-spacing-single-step-5-start through $framework-spacing-single-step-5-end {
+		.m#{$i * 5} { height: $i * 5px; }
+	}
+}
+
+//margins step 10px
+@if $framework-spacing-single-step-10 {
+	@for $i from $framework-spacing-single-step-10-start through $framework-spacing-single-step-10-end {
+		.m#{$i * 10} { height: $i * 10px; }
+	}
+}

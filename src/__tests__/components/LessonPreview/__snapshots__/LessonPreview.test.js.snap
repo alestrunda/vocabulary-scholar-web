@@ -1,0 +1,650 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LessonPreview
+    bestScore={0.65}
+    dateViewed={1544482800000}
+    name="lesson name"
+    questionsCnt={30}
+    type="audio"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Paper
+        circle={false}
+        rounded={true}
+        transitionEnabled={true}
+        zDepth={1}
+      >
+        <div
+          className="item-preview__inner"
+        >
+          <div
+            className="item-preview__head"
+          >
+            <h2
+              className="heading-mid"
+            >
+              lesson name
+            </h2>
+          </div>
+          <div
+            className="item-preview__content"
+          >
+            <PropertySingle
+              label="Question type"
+            >
+              <span>
+                Audio
+              </span>
+            </PropertySingle>
+            <PropertySingle
+              label="Questions"
+            >
+              <span>
+                30
+              </span>
+            </PropertySingle>
+            <PropertySingle
+              label="Last viewed"
+            >
+              Dec 11. 2018
+            </PropertySingle>
+            <PropertySingle
+              label="Top score"
+            >
+              65%
+            </PropertySingle>
+          </div>
+        </div>
+      </Paper>,
+      "className": "item-preview",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="item-preview__inner"
+        >
+          <div
+            className="item-preview__head"
+          >
+            <h2
+              className="heading-mid"
+            >
+              lesson name
+            </h2>
+          </div>
+          <div
+            className="item-preview__content"
+          >
+            <PropertySingle
+              label="Question type"
+            >
+              <span>
+                Audio
+              </span>
+            </PropertySingle>
+            <PropertySingle
+              label="Questions"
+            >
+              <span>
+                30
+              </span>
+            </PropertySingle>
+            <PropertySingle
+              label="Last viewed"
+            >
+              Dec 11. 2018
+            </PropertySingle>
+            <PropertySingle
+              label="Top score"
+            >
+              65%
+            </PropertySingle>
+          </div>
+        </div>,
+        "circle": false,
+        "rounded": true,
+        "transitionEnabled": true,
+        "zDepth": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="item-preview__head"
+            >
+              <h2
+                className="heading-mid"
+              >
+                lesson name
+              </h2>
+            </div>,
+            <div
+              className="item-preview__content"
+            >
+              <PropertySingle
+                label="Question type"
+              >
+                <span>
+                  Audio
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Questions"
+              >
+                <span>
+                  30
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Last viewed"
+              >
+                Dec 11. 2018
+              </PropertySingle>
+              <PropertySingle
+                label="Top score"
+              >
+                65%
+              </PropertySingle>
+            </div>,
+          ],
+          "className": "item-preview__inner",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2
+                className="heading-mid"
+              >
+                lesson name
+              </h2>,
+              "className": "item-preview__head",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "lesson name",
+                "className": "heading-mid",
+              },
+              "ref": null,
+              "rendered": "lesson name",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PropertySingle
+                  label="Question type"
+                >
+                  <span>
+                    Audio
+                  </span>
+                </PropertySingle>,
+                <PropertySingle
+                  label="Questions"
+                >
+                  <span>
+                    30
+                  </span>
+                </PropertySingle>,
+                <PropertySingle
+                  label="Last viewed"
+                >
+                  Dec 11. 2018
+                </PropertySingle>,
+                <PropertySingle
+                  label="Top score"
+                >
+                  65%
+                </PropertySingle>,
+              ],
+              "className": "item-preview__content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <span>
+                    Audio
+                  </span>,
+                  "label": "Question type",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Audio",
+                  },
+                  "ref": null,
+                  "rendered": "Audio",
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <span>
+                    30
+                  </span>,
+                  "label": "Questions",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 30,
+                  },
+                  "ref": null,
+                  "rendered": 30,
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Dec 11. 2018",
+                  "label": "Last viewed",
+                },
+                "ref": null,
+                "rendered": "Dec 11. 2018",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "65%",
+                  "label": "Top score",
+                },
+                "ref": null,
+                "rendered": "65%",
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Paper
+          circle={false}
+          rounded={true}
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className="item-preview__inner"
+          >
+            <div
+              className="item-preview__head"
+            >
+              <h2
+                className="heading-mid"
+              >
+                lesson name
+              </h2>
+            </div>
+            <div
+              className="item-preview__content"
+            >
+              <PropertySingle
+                label="Question type"
+              >
+                <span>
+                  Audio
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Questions"
+              >
+                <span>
+                  30
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Last viewed"
+              >
+                Dec 11. 2018
+              </PropertySingle>
+              <PropertySingle
+                label="Top score"
+              >
+                65%
+              </PropertySingle>
+            </div>
+          </div>
+        </Paper>,
+        "className": "item-preview",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="item-preview__inner"
+          >
+            <div
+              className="item-preview__head"
+            >
+              <h2
+                className="heading-mid"
+              >
+                lesson name
+              </h2>
+            </div>
+            <div
+              className="item-preview__content"
+            >
+              <PropertySingle
+                label="Question type"
+              >
+                <span>
+                  Audio
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Questions"
+              >
+                <span>
+                  30
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Last viewed"
+              >
+                Dec 11. 2018
+              </PropertySingle>
+              <PropertySingle
+                label="Top score"
+              >
+                65%
+              </PropertySingle>
+            </div>
+          </div>,
+          "circle": false,
+          "rounded": true,
+          "transitionEnabled": true,
+          "zDepth": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="item-preview__head"
+              >
+                <h2
+                  className="heading-mid"
+                >
+                  lesson name
+                </h2>
+              </div>,
+              <div
+                className="item-preview__content"
+              >
+                <PropertySingle
+                  label="Question type"
+                >
+                  <span>
+                    Audio
+                  </span>
+                </PropertySingle>
+                <PropertySingle
+                  label="Questions"
+                >
+                  <span>
+                    30
+                  </span>
+                </PropertySingle>
+                <PropertySingle
+                  label="Last viewed"
+                >
+                  Dec 11. 2018
+                </PropertySingle>
+                <PropertySingle
+                  label="Top score"
+                >
+                  65%
+                </PropertySingle>
+              </div>,
+            ],
+            "className": "item-preview__inner",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2
+                  className="heading-mid"
+                >
+                  lesson name
+                </h2>,
+                "className": "item-preview__head",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "lesson name",
+                  "className": "heading-mid",
+                },
+                "ref": null,
+                "rendered": "lesson name",
+                "type": "h2",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PropertySingle
+                    label="Question type"
+                  >
+                    <span>
+                      Audio
+                    </span>
+                  </PropertySingle>,
+                  <PropertySingle
+                    label="Questions"
+                  >
+                    <span>
+                      30
+                    </span>
+                  </PropertySingle>,
+                  <PropertySingle
+                    label="Last viewed"
+                  >
+                    Dec 11. 2018
+                  </PropertySingle>,
+                  <PropertySingle
+                    label="Top score"
+                  >
+                    65%
+                  </PropertySingle>,
+                ],
+                "className": "item-preview__content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <span>
+                      Audio
+                    </span>,
+                    "label": "Question type",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Audio",
+                    },
+                    "ref": null,
+                    "rendered": "Audio",
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <span>
+                      30
+                    </span>,
+                    "label": "Questions",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 30,
+                    },
+                    "ref": null,
+                    "rendered": 30,
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Dec 11. 2018",
+                    "label": "Last viewed",
+                  },
+                  "ref": null,
+                  "rendered": "Dec 11. 2018",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "65%",
+                    "label": "Top score",
+                  },
+                  "ref": null,
+                  "rendered": "65%",
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

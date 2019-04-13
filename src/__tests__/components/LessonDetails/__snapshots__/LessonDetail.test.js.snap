@@ -1,0 +1,378 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LessonDetails
+    answers={
+      Array [
+        Object {
+          "answered": "school",
+          "word": Object {
+            "id": "school",
+            "word": "school",
+          },
+        },
+        Object {
+          "answered": "bus",
+          "word": Object {
+            "id": "car",
+            "word": "car",
+          },
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="lesson-details__head undefined__head"
+        >
+          <h3
+            className="mb10"
+          >
+            Lesson details
+          </h3>
+        </div>,
+        Array [
+          <AnswerPreview
+            answered="school"
+            word="school"
+          />,
+          <AnswerPreview
+            answered="bus"
+            word="car"
+          />,
+        ],
+      ],
+      "className": "lesson-details",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="mb10"
+          >
+            Lesson details
+          </h3>,
+          "className": "lesson-details__head undefined__head",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lesson details",
+            "className": "mb10",
+          },
+          "ref": null,
+          "rendered": "Lesson details",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "school",
+        "nodeType": "function",
+        "props": Object {
+          "answered": "school",
+          "word": "school",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "car",
+        "nodeType": "function",
+        "props": Object {
+          "answered": "bus",
+          "word": "car",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="lesson-details__head undefined__head"
+          >
+            <h3
+              className="mb10"
+            >
+              Lesson details
+            </h3>
+          </div>,
+          Array [
+            <AnswerPreview
+              answered="school"
+              word="school"
+            />,
+            <AnswerPreview
+              answered="bus"
+              word="car"
+            />,
+          ],
+        ],
+        "className": "lesson-details",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="mb10"
+            >
+              Lesson details
+            </h3>,
+            "className": "lesson-details__head undefined__head",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lesson details",
+              "className": "mb10",
+            },
+            "ref": null,
+            "rendered": "Lesson details",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "school",
+          "nodeType": "function",
+          "props": Object {
+            "answered": "school",
+            "word": "school",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "car",
+          "nodeType": "function",
+          "props": Object {
+            "answered": "bus",
+            "word": "car",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`renders correctly no items 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LessonDetails
+    answers={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="lesson-details__head undefined__head"
+        >
+          <h3
+            className="mb10"
+          >
+            Lesson details
+          </h3>
+        </div>,
+        Array [],
+      ],
+      "className": "lesson-details",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <h3
+            className="mb10"
+          >
+            Lesson details
+          </h3>,
+          "className": "lesson-details__head undefined__head",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lesson details",
+            "className": "mb10",
+          },
+          "ref": null,
+          "rendered": "Lesson details",
+          "type": "h3",
+        },
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="lesson-details__head undefined__head"
+          >
+            <h3
+              className="mb10"
+            >
+              Lesson details
+            </h3>
+          </div>,
+          Array [],
+        ],
+        "className": "lesson-details",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="mb10"
+            >
+              Lesson details
+            </h3>,
+            "className": "lesson-details__head undefined__head",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lesson details",
+              "className": "mb10",
+            },
+            "ref": null,
+            "rendered": "Lesson details",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

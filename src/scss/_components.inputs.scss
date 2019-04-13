@@ -1,0 +1,41 @@
+.input-preview {
+    display: flex;
+}
+
+.input-preview__preview {
+    margin-left: 10px;
+    padding-bottom: 10px;
+    align-self: flex-end;
+}
+
+.input-text {
+    font-family: $font-main;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid $color-border;
+    border-radius: 25px;
+    padding: 15px 20px;
+    transition: all 0.3s ease-out;
+
+    &:focus {
+        box-shadow: 0 0 3px map-get($map: $colors, $key: main);
+    }
+}
+
+.input-text--left-big {
+    padding-left: 50px !important;
+}
+
+.input-text--left-mid {
+    padding-left: 40px !important;
+}
+
+.input-text--right-big {
+    padding-right: 50px !important;
+}
+
+.input-text--small {
+    padding: 10px 15px;
+    border-radius: 20px;
+}

@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP_LOAD_STATE handles APP_LOAD_STATE 1`] = `
+Array [
+  "data",
+]
+`;
+
+exports[`LIST_CREATE handles LIST_CREATE 1`] = `
+Array [
+  Object {
+    "dateCreated": 1532028111990,
+    "id": "fg4af65g4adfg",
+    "name": "",
+    "wordIDs": Array [],
+  },
+]
+`;
+
+exports[`LIST_SET_WORDS handles LIST_SET_WORDS 1`] = `
+Array [
+  Object {
+    "id": "abc123",
+    "listName": "list name",
+    "wordIDs": Array [
+      "1",
+      "2",
+      "3",
+      "4",
+    ],
+    "wordIDsSorted": null,
+  },
+]
+`;
+
+exports[`LIST_SORT handles LIST_SORT 1`] = `
+Array [
+  Object {
+    "id": "abc123",
+    "isDescSort": false,
+    "listName": "list name",
+    "sortBy": "rating",
+    "wordIDs": Array [
+      "1",
+      "2",
+      "3",
+      "4",
+    ],
+    "wordIDsSorted": Array [
+      undefined,
+      undefined,
+    ],
+  },
+]
+`;
+
+exports[`LIST_VIEW handles LIST_VIEW 1`] = `
+Array [
+  Object {
+    "dateViewed": 1532028111990,
+    "id": "abc123",
+    "listName": "list name",
+  },
+]
+`;
+
+exports[`LISTS_IMPORT does not affect other lists on LISTS_IMPORT 1`] = `
+Array [
+  Object {
+    "dateCreated": 1530825000000,
+    "id": "abc",
+    "listName": "list 2 name",
+    "wordIDs": Array [
+      "2",
+      "3",
+    ],
+  },
+  Object {
+    "dateCreated": 1530825000000,
+    "id": "qwe",
+    "listName": "list name",
+    "wordIDs": Array [
+      "1",
+      "2",
+    ],
+  },
+]
+`;
+
+exports[`LISTS_IMPORT handles LISTS_IMPORT 1`] = `
+Array [
+  Object {
+    "dateCreated": 1530825000000,
+    "id": "qwe",
+    "listName": "list name",
+    "wordIDs": Array [
+      "1",
+      "2",
+    ],
+  },
+  Object {
+    "dateCreated": 1530825000000,
+    "id": "abc",
+    "listName": "list 2 name",
+    "wordIDs": Array [
+      "2",
+      "3",
+    ],
+  },
+  Object {
+    "dateCreated": 1530825000000,
+    "id": "iop",
+    "listName": "list 3 name",
+    "wordIDs": Array [],
+  },
+]
+`;

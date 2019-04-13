@@ -1,0 +1,25 @@
+.link-hover-blue,
+.links-hover-blue a {
+    &:focus,
+    &:hover {
+        color: map-get($map: $colors, $key: main);
+    }
+}
+
+.link-hover-underline,
+.links-hover-underline a {
+    &:focus,
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.link-underline,
+.links-underline a {
+    text-decoration: underline;
+
+    &:focus,
+    &:hover {
+        text-decoration: none;
+    }
+}

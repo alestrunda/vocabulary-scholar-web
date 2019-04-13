@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container--w-limit {
+    max-width: 620px;
+}
+
+.container-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container-content-wrapper--right {
+    align-items: flex-end;
+}

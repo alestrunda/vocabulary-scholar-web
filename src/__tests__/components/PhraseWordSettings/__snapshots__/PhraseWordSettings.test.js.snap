@@ -1,0 +1,926 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PhraseWordSettings
+    onSubmit={[MockFunction]}
+    submitText="Save phrase"
+    word="School"
+    wordID="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h3>
+          1. Set phrase
+        </h3>,
+        <TextField
+          className="mb25"
+          disabled={false}
+          floatingLabelFixed={false}
+          floatingLabelText="Phrase"
+          fullWidth={false}
+          multiLine={false}
+          onChange={[Function]}
+          rows={1}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="text"
+          underlineShow={true}
+          value=""
+        />,
+        <h3
+          className="mb5"
+        >
+          2. Select part that will be hidden
+        </h3>,
+        <TextHightlight
+          className="mb30"
+          classNameHighlighted="text-highlight"
+          onHighlight={[Function]}
+        >
+          
+        </TextHightlight>,
+        <h3
+          className="mb5"
+        >
+          3. Question preview
+        </h3>,
+        <QuestionPhrase
+          disabled={true}
+          error=""
+          hideIfNotAvailable={true}
+          phrase=""
+          word="School"
+          wordID="school"
+        />,
+        undefined,
+        <div
+          className="mb25 mt35"
+        >
+          <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Save phrase"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "1. Set phrase",
+        },
+        "ref": null,
+        "rendered": "1. Set phrase",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "mb25",
+          "disabled": false,
+          "errorText": undefined,
+          "floatingLabelFixed": false,
+          "floatingLabelText": "Phrase",
+          "fullWidth": false,
+          "multiLine": false,
+          "onChange": [Function],
+          "rows": 1,
+          "style": Object {
+            "width": "100%",
+          },
+          "type": "text",
+          "underlineShow": true,
+          "value": "",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "2. Select part that will be hidden",
+          "className": "mb5",
+        },
+        "ref": null,
+        "rendered": "2. Select part that will be hidden",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "",
+          "className": "mb30",
+          "classNameHighlighted": "text-highlight",
+          "end": undefined,
+          "onHighlight": [Function],
+          "start": undefined,
+        },
+        "ref": null,
+        "rendered": "",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "3. Question preview",
+          "className": "mb5",
+        },
+        "ref": null,
+        "rendered": "3. Question preview",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "disabled": true,
+          "endIndex": undefined,
+          "error": "",
+          "hideIfNotAvailable": true,
+          "phrase": "",
+          "startIndex": undefined,
+          "word": "School",
+          "wordID": "school",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Save phrase"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />,
+          "className": "mb25 mt35",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "fullWidth": false,
+            "label": "Save phrase",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h3>
+            1. Set phrase
+          </h3>,
+          <TextField
+            className="mb25"
+            disabled={false}
+            floatingLabelFixed={false}
+            floatingLabelText="Phrase"
+            fullWidth={false}
+            multiLine={false}
+            onChange={[Function]}
+            rows={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            underlineShow={true}
+            value=""
+          />,
+          <h3
+            className="mb5"
+          >
+            2. Select part that will be hidden
+          </h3>,
+          <TextHightlight
+            className="mb30"
+            classNameHighlighted="text-highlight"
+            onHighlight={[Function]}
+          >
+            
+          </TextHightlight>,
+          <h3
+            className="mb5"
+          >
+            3. Question preview
+          </h3>,
+          <QuestionPhrase
+            disabled={true}
+            error=""
+            hideIfNotAvailable={true}
+            phrase=""
+            word="School"
+            wordID="school"
+          />,
+          undefined,
+          <div
+            className="mb25 mt35"
+          >
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Save phrase"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "1. Set phrase",
+          },
+          "ref": null,
+          "rendered": "1. Set phrase",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "mb25",
+            "disabled": false,
+            "errorText": undefined,
+            "floatingLabelFixed": false,
+            "floatingLabelText": "Phrase",
+            "fullWidth": false,
+            "multiLine": false,
+            "onChange": [Function],
+            "rows": 1,
+            "style": Object {
+              "width": "100%",
+            },
+            "type": "text",
+            "underlineShow": true,
+            "value": "",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "2. Select part that will be hidden",
+            "className": "mb5",
+          },
+          "ref": null,
+          "rendered": "2. Select part that will be hidden",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "",
+            "className": "mb30",
+            "classNameHighlighted": "text-highlight",
+            "end": undefined,
+            "onHighlight": [Function],
+            "start": undefined,
+          },
+          "ref": null,
+          "rendered": "",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "3. Question preview",
+            "className": "mb5",
+          },
+          "ref": null,
+          "rendered": "3. Question preview",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": true,
+            "endIndex": undefined,
+            "error": "",
+            "hideIfNotAvailable": true,
+            "phrase": "",
+            "startIndex": undefined,
+            "word": "School",
+            "wordID": "school",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Save phrase"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />,
+            "className": "mb25 mt35",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Save phrase",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`renders correctly with phrase data passed 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PhraseWordSettings
+    onSubmit={[MockFunction]}
+    phrase={
+      Object {
+        "endIndex": 10,
+        "phrase": "Lorem ipsum",
+        "startIndex": 0,
+      }
+    }
+    submitText="Save phrase"
+    word="School"
+    wordID="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <h3>
+          1. Set phrase
+        </h3>,
+        <TextField
+          className="mb25"
+          disabled={false}
+          floatingLabelFixed={false}
+          floatingLabelText="Phrase"
+          fullWidth={false}
+          multiLine={false}
+          onChange={[Function]}
+          rows={1}
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+          type="text"
+          underlineShow={true}
+          value="Lorem ipsum"
+        />,
+        <h3
+          className="mb5"
+        >
+          2. Select part that will be hidden
+        </h3>,
+        <TextHightlight
+          className="mb30"
+          classNameHighlighted="text-highlight"
+          end={10}
+          onHighlight={[Function]}
+          start={0}
+        >
+          Lorem ipsum
+        </TextHightlight>,
+        <h3
+          className="mb5"
+        >
+          3. Question preview
+        </h3>,
+        <QuestionPhrase
+          disabled={true}
+          endIndex={10}
+          error=""
+          hideIfNotAvailable={true}
+          phrase="Lorem ipsum"
+          startIndex={0}
+          word="School"
+          wordID="school"
+        />,
+        undefined,
+        <div
+          className="mb25 mt35"
+        >
+          <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Save phrase"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />
+        </div>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "1. Set phrase",
+        },
+        "ref": null,
+        "rendered": "1. Set phrase",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "mb25",
+          "disabled": false,
+          "errorText": undefined,
+          "floatingLabelFixed": false,
+          "floatingLabelText": "Phrase",
+          "fullWidth": false,
+          "multiLine": false,
+          "onChange": [Function],
+          "rows": 1,
+          "style": Object {
+            "width": "100%",
+          },
+          "type": "text",
+          "underlineShow": true,
+          "value": "Lorem ipsum",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "2. Select part that will be hidden",
+          "className": "mb5",
+        },
+        "ref": null,
+        "rendered": "2. Select part that will be hidden",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Lorem ipsum",
+          "className": "mb30",
+          "classNameHighlighted": "text-highlight",
+          "end": 10,
+          "onHighlight": [Function],
+          "start": 0,
+        },
+        "ref": null,
+        "rendered": "Lorem ipsum",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "3. Question preview",
+          "className": "mb5",
+        },
+        "ref": null,
+        "rendered": "3. Question preview",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "disabled": true,
+          "endIndex": 10,
+          "error": "",
+          "hideIfNotAvailable": true,
+          "phrase": "Lorem ipsum",
+          "startIndex": 0,
+          "word": "School",
+          "wordID": "school",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RaisedButton
+            disabled={false}
+            fullWidth={false}
+            label="Save phrase"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />,
+          "className": "mb25 mt35",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": false,
+            "fullWidth": false,
+            "label": "Save phrase",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <h3>
+            1. Set phrase
+          </h3>,
+          <TextField
+            className="mb25"
+            disabled={false}
+            floatingLabelFixed={false}
+            floatingLabelText="Phrase"
+            fullWidth={false}
+            multiLine={false}
+            onChange={[Function]}
+            rows={1}
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
+            type="text"
+            underlineShow={true}
+            value="Lorem ipsum"
+          />,
+          <h3
+            className="mb5"
+          >
+            2. Select part that will be hidden
+          </h3>,
+          <TextHightlight
+            className="mb30"
+            classNameHighlighted="text-highlight"
+            end={10}
+            onHighlight={[Function]}
+            start={0}
+          >
+            Lorem ipsum
+          </TextHightlight>,
+          <h3
+            className="mb5"
+          >
+            3. Question preview
+          </h3>,
+          <QuestionPhrase
+            disabled={true}
+            endIndex={10}
+            error=""
+            hideIfNotAvailable={true}
+            phrase="Lorem ipsum"
+            startIndex={0}
+            word="School"
+            wordID="school"
+          />,
+          undefined,
+          <div
+            className="mb25 mt35"
+          >
+            <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Save phrase"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "1. Set phrase",
+          },
+          "ref": null,
+          "rendered": "1. Set phrase",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "mb25",
+            "disabled": false,
+            "errorText": undefined,
+            "floatingLabelFixed": false,
+            "floatingLabelText": "Phrase",
+            "fullWidth": false,
+            "multiLine": false,
+            "onChange": [Function],
+            "rows": 1,
+            "style": Object {
+              "width": "100%",
+            },
+            "type": "text",
+            "underlineShow": true,
+            "value": "Lorem ipsum",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "2. Select part that will be hidden",
+            "className": "mb5",
+          },
+          "ref": null,
+          "rendered": "2. Select part that will be hidden",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Lorem ipsum",
+            "className": "mb30",
+            "classNameHighlighted": "text-highlight",
+            "end": 10,
+            "onHighlight": [Function],
+            "start": 0,
+          },
+          "ref": null,
+          "rendered": "Lorem ipsum",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "3. Question preview",
+            "className": "mb5",
+          },
+          "ref": null,
+          "rendered": "3. Question preview",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "disabled": true,
+            "endIndex": 10,
+            "error": "",
+            "hideIfNotAvailable": true,
+            "phrase": "Lorem ipsum",
+            "startIndex": 0,
+            "word": "School",
+            "wordID": "school",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RaisedButton
+              disabled={false}
+              fullWidth={false}
+              label="Save phrase"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />,
+            "className": "mb25 mt35",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "disabled": false,
+              "fullWidth": false,
+              "label": "Save phrase",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

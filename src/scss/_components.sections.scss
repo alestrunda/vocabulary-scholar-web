@@ -1,0 +1,26 @@
+.section-content {
+    padding: 15px 20px;
+
+    @include break(sm) {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.section-content--v-big {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-content-paper {
+    padding: 25px 20px 15px;
+}
+
+.section-items {
+    margin-bottom: 10px;
+}
+
+.section-content-v {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RatingStars
+    colorActive="#00adb5"
+    colorUnactive="#ccc"
+    iconSize={15}
+    length={5}
+    stars={2}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="rating-stars__active"
+        >
+          <RatingStar
+            active={true}
+            color="#00adb5"
+            data-testid="rating-star-active"
+            number={1}
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size={15}
+          />
+          <RatingStar
+            active={true}
+            color="#00adb5"
+            data-testid="rating-star-active"
+            number={2}
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size={15}
+          />
+        </div>,
+        <div
+          className="rating-stars__unactive"
+        >
+          <RatingStar
+            active={false}
+            color="#ccc"
+            data-testid="rating-star-unactive"
+            number={3}
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size={15}
+          />
+          <RatingStar
+            active={false}
+            color="#ccc"
+            data-testid="rating-star-unactive"
+            number={4}
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size={15}
+          />
+          <RatingStar
+            active={false}
+            color="#ccc"
+            data-testid="rating-star-unactive"
+            number={5}
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            size={15}
+          />
+        </div>,
+      ],
+      "className": "rating-stars",
+      "style": Object {
+        "height": 15,
+        "lineHeight": "15px",
+        "width": 75,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <RatingStar
+              active={true}
+              color="#00adb5"
+              data-testid="rating-star-active"
+              number={1}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />,
+            <RatingStar
+              active={true}
+              color="#00adb5"
+              data-testid="rating-star-active"
+              number={2}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />,
+          ],
+          "className": "rating-stars__active",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "function",
+            "props": Object {
+              "active": true,
+              "color": "#00adb5",
+              "data-testid": "rating-star-active",
+              "number": 1,
+              "onClick": [Function],
+              "onMouseEnter": [Function],
+              "onMouseLeave": [Function],
+              "size": 15,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "function",
+            "props": Object {
+              "active": true,
+              "color": "#00adb5",
+              "data-testid": "rating-star-active",
+              "number": 2,
+              "onClick": [Function],
+              "onMouseEnter": [Function],
+              "onMouseLeave": [Function],
+              "size": 15,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <RatingStar
+              active={false}
+              color="#ccc"
+              data-testid="rating-star-unactive"
+              number={3}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />,
+            <RatingStar
+              active={false}
+              color="#ccc"
+              data-testid="rating-star-unactive"
+              number={4}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />,
+            <RatingStar
+              active={false}
+              color="#ccc"
+              data-testid="rating-star-unactive"
+              number={5}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />,
+          ],
+          "className": "rating-stars__unactive",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "function",
+            "props": Object {
+              "active": false,
+              "color": "#ccc",
+              "data-testid": "rating-star-unactive",
+              "number": 3,
+              "onClick": [Function],
+              "onMouseEnter": [Function],
+              "onMouseLeave": [Function],
+              "size": 15,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "function",
+            "props": Object {
+              "active": false,
+              "color": "#ccc",
+              "data-testid": "rating-star-unactive",
+              "number": 4,
+              "onClick": [Function],
+              "onMouseEnter": [Function],
+              "onMouseLeave": [Function],
+              "size": 15,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "function",
+            "props": Object {
+              "active": false,
+              "color": "#ccc",
+              "data-testid": "rating-star-unactive",
+              "number": 5,
+              "onClick": [Function],
+              "onMouseEnter": [Function],
+              "onMouseLeave": [Function],
+              "size": 15,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="rating-stars__active"
+          >
+            <RatingStar
+              active={true}
+              color="#00adb5"
+              data-testid="rating-star-active"
+              number={1}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />
+            <RatingStar
+              active={true}
+              color="#00adb5"
+              data-testid="rating-star-active"
+              number={2}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />
+          </div>,
+          <div
+            className="rating-stars__unactive"
+          >
+            <RatingStar
+              active={false}
+              color="#ccc"
+              data-testid="rating-star-unactive"
+              number={3}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />
+            <RatingStar
+              active={false}
+              color="#ccc"
+              data-testid="rating-star-unactive"
+              number={4}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />
+            <RatingStar
+              active={false}
+              color="#ccc"
+              data-testid="rating-star-unactive"
+              number={5}
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size={15}
+            />
+          </div>,
+        ],
+        "className": "rating-stars",
+        "style": Object {
+          "height": 15,
+          "lineHeight": "15px",
+          "width": 75,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RatingStar
+                active={true}
+                color="#00adb5"
+                data-testid="rating-star-active"
+                number={1}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size={15}
+              />,
+              <RatingStar
+                active={true}
+                color="#00adb5"
+                data-testid="rating-star-active"
+                number={2}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size={15}
+              />,
+            ],
+            "className": "rating-stars__active",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "function",
+              "props": Object {
+                "active": true,
+                "color": "#00adb5",
+                "data-testid": "rating-star-active",
+                "number": 1,
+                "onClick": [Function],
+                "onMouseEnter": [Function],
+                "onMouseLeave": [Function],
+                "size": 15,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "function",
+              "props": Object {
+                "active": true,
+                "color": "#00adb5",
+                "data-testid": "rating-star-active",
+                "number": 2,
+                "onClick": [Function],
+                "onMouseEnter": [Function],
+                "onMouseLeave": [Function],
+                "size": 15,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <RatingStar
+                active={false}
+                color="#ccc"
+                data-testid="rating-star-unactive"
+                number={3}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size={15}
+              />,
+              <RatingStar
+                active={false}
+                color="#ccc"
+                data-testid="rating-star-unactive"
+                number={4}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size={15}
+              />,
+              <RatingStar
+                active={false}
+                color="#ccc"
+                data-testid="rating-star-unactive"
+                number={5}
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size={15}
+              />,
+            ],
+            "className": "rating-stars__unactive",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "function",
+              "props": Object {
+                "active": false,
+                "color": "#ccc",
+                "data-testid": "rating-star-unactive",
+                "number": 3,
+                "onClick": [Function],
+                "onMouseEnter": [Function],
+                "onMouseLeave": [Function],
+                "size": 15,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "function",
+              "props": Object {
+                "active": false,
+                "color": "#ccc",
+                "data-testid": "rating-star-unactive",
+                "number": 4,
+                "onClick": [Function],
+                "onMouseEnter": [Function],
+                "onMouseLeave": [Function],
+                "size": 15,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "function",
+              "props": Object {
+                "active": false,
+                "color": "#ccc",
+                "data-testid": "rating-star-unactive",
+                "number": 5,
+                "onClick": [Function],
+                "onMouseEnter": [Function],
+                "onMouseLeave": [Function],
+                "size": 15,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

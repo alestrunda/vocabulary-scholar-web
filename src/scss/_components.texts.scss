@@ -1,0 +1,94 @@
+.text-font-alt {
+    font-family: $font-alt;
+}
+
+//generate text colors
+@each $key, $value in $colors {
+    .text-#{$key} {
+        color: $value;
+    }
+}
+
+//generate text line-heights
+@each $key, $value in $line-heights {
+    .text-ln-#{$key} {
+        line-height: $value;
+    }
+}
+
+//generate text sizes
+@each $key, $value in $font-sizes {
+    .text-#{$key} {
+        font-size: $value;
+    }
+}
+
+.text-break {
+    word-wrap: break-word;
+}
+
+.text-error {
+    font-size: map-get($map: $font-sizes, $key: big);
+    font-weight: 500;
+    color: #f00;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.text-highlight {
+    background-color: fade-out($color: map-get($map: $colors, $key: main), $amount: 0.7);
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-loading {
+    @extend .text-no-data;
+    animation: text-loading 2s ease-out infinite;
+}
+
+.text-no-data {
+    font-size: map-get($map: $font-sizes, $key: big);
+    font-weight: 500;
+    color: map-get($map: $colors, $key: gray);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    &.text-white {
+        color: map-get($map: $colors, $key: white);
+    }
+}
+
+.text-not-available {
+    font-family: $font-main;
+    color: map-get($map: $colors, $key: gray);
+    text-align: center;
+}
+
+.text-not-available--left {
+    text-align: left;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-score {
+    font-size: 75px;
+    line-height: map-get($map: $line-heights, $key: basic);
+    font-weight: 700;
+}
+
+//generate text weights
+@each $key, $value in $font-weights {
+    .text-weight-#{$key} {
+        font-weight: $value;
+    }
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}

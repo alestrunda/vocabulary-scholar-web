@@ -1,0 +1,684 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ListPreview
+    compact={false}
+    list={
+      Object {
+        "dateCreated": 1544482800000,
+        "dateViewed": 1544482800000,
+        "id": 1,
+        "name": "List 1",
+        "wordIDs": Array [
+          "vigorous",
+          "travel",
+          "car",
+        ],
+      }
+    }
+    words={
+      Object {
+        "car": Object {
+          "id": "car",
+          "ratings": Array [
+            1,
+            2,
+          ],
+          "word": "car",
+        },
+        "travel": Object {
+          "id": "travel",
+          "word": "travel",
+        },
+        "vigorous": Object {
+          "id": "vigorous",
+          "ratings": Array [
+            4,
+            1,
+            5,
+            2,
+            3,
+          ],
+          "word": "vigorous",
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Paper
+        circle={false}
+        rounded={true}
+        transitionEnabled={true}
+        zDepth={1}
+      >
+        <div
+          className="item-preview__inner"
+        >
+          <div
+            className="item-preview__head"
+          >
+            <h2
+              className="heading-mid"
+            >
+              List 1
+            </h2>
+          </div>
+          <div
+            className="item-preview__content"
+          >
+            <PropertySingle
+              label="Items"
+            >
+              <span>
+                3
+              </span>
+            </PropertySingle>
+            <PropertySingle
+              label="Last viewed"
+            >
+              Dec 11. 2018
+            </PropertySingle>
+            <PropertySingle
+              label="Average rating"
+            >
+              <RatingStars
+                className="el-center"
+                colorActive="#00adb5"
+                colorUnactive="#ccc"
+                iconSize={24}
+                length={5}
+                stars={2}
+              />
+            </PropertySingle>
+          </div>
+        </div>
+      </Paper>,
+      "className": "item-preview",
+      "onClick": [Function],
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div
+          className="item-preview__inner"
+        >
+          <div
+            className="item-preview__head"
+          >
+            <h2
+              className="heading-mid"
+            >
+              List 1
+            </h2>
+          </div>
+          <div
+            className="item-preview__content"
+          >
+            <PropertySingle
+              label="Items"
+            >
+              <span>
+                3
+              </span>
+            </PropertySingle>
+            <PropertySingle
+              label="Last viewed"
+            >
+              Dec 11. 2018
+            </PropertySingle>
+            <PropertySingle
+              label="Average rating"
+            >
+              <RatingStars
+                className="el-center"
+                colorActive="#00adb5"
+                colorUnactive="#ccc"
+                iconSize={24}
+                length={5}
+                stars={2}
+              />
+            </PropertySingle>
+          </div>
+        </div>,
+        "circle": false,
+        "rounded": true,
+        "transitionEnabled": true,
+        "zDepth": 1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="item-preview__head"
+            >
+              <h2
+                className="heading-mid"
+              >
+                List 1
+              </h2>
+            </div>,
+            <div
+              className="item-preview__content"
+            >
+              <PropertySingle
+                label="Items"
+              >
+                <span>
+                  3
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Last viewed"
+              >
+                Dec 11. 2018
+              </PropertySingle>
+              <PropertySingle
+                label="Average rating"
+              >
+                <RatingStars
+                  className="el-center"
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={24}
+                  length={5}
+                  stars={2}
+                />
+              </PropertySingle>
+            </div>,
+          ],
+          "className": "item-preview__inner",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h2
+                className="heading-mid"
+              >
+                List 1
+              </h2>,
+              "className": "item-preview__head",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "List 1",
+                "className": "heading-mid",
+              },
+              "ref": null,
+              "rendered": "List 1",
+              "type": "h2",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <PropertySingle
+                  label="Items"
+                >
+                  <span>
+                    3
+                  </span>
+                </PropertySingle>,
+                <PropertySingle
+                  label="Last viewed"
+                >
+                  Dec 11. 2018
+                </PropertySingle>,
+                <PropertySingle
+                  label="Average rating"
+                >
+                  <RatingStars
+                    className="el-center"
+                    colorActive="#00adb5"
+                    colorUnactive="#ccc"
+                    iconSize={24}
+                    length={5}
+                    stars={2}
+                  />
+                </PropertySingle>,
+              ],
+              "className": "item-preview__content",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <span>
+                    3
+                  </span>,
+                  "label": "Items",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 3,
+                  },
+                  "ref": null,
+                  "rendered": 3,
+                  "type": "span",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Dec 11. 2018",
+                  "label": "Last viewed",
+                },
+                "ref": null,
+                "rendered": "Dec 11. 2018",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": <RatingStars
+                    className="el-center"
+                    colorActive="#00adb5"
+                    colorUnactive="#ccc"
+                    iconSize={24}
+                    length={5}
+                    stars={2}
+                  />,
+                  "label": "Average rating",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "el-center",
+                    "colorActive": "#00adb5",
+                    "colorUnactive": "#ccc",
+                    "iconSize": 24,
+                    "length": 5,
+                    "stars": 2,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Paper
+          circle={false}
+          rounded={true}
+          transitionEnabled={true}
+          zDepth={1}
+        >
+          <div
+            className="item-preview__inner"
+          >
+            <div
+              className="item-preview__head"
+            >
+              <h2
+                className="heading-mid"
+              >
+                List 1
+              </h2>
+            </div>
+            <div
+              className="item-preview__content"
+            >
+              <PropertySingle
+                label="Items"
+              >
+                <span>
+                  3
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Last viewed"
+              >
+                Dec 11. 2018
+              </PropertySingle>
+              <PropertySingle
+                label="Average rating"
+              >
+                <RatingStars
+                  className="el-center"
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={24}
+                  length={5}
+                  stars={2}
+                />
+              </PropertySingle>
+            </div>
+          </div>
+        </Paper>,
+        "className": "item-preview",
+        "onClick": [Function],
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <div
+            className="item-preview__inner"
+          >
+            <div
+              className="item-preview__head"
+            >
+              <h2
+                className="heading-mid"
+              >
+                List 1
+              </h2>
+            </div>
+            <div
+              className="item-preview__content"
+            >
+              <PropertySingle
+                label="Items"
+              >
+                <span>
+                  3
+                </span>
+              </PropertySingle>
+              <PropertySingle
+                label="Last viewed"
+              >
+                Dec 11. 2018
+              </PropertySingle>
+              <PropertySingle
+                label="Average rating"
+              >
+                <RatingStars
+                  className="el-center"
+                  colorActive="#00adb5"
+                  colorUnactive="#ccc"
+                  iconSize={24}
+                  length={5}
+                  stars={2}
+                />
+              </PropertySingle>
+            </div>
+          </div>,
+          "circle": false,
+          "rounded": true,
+          "transitionEnabled": true,
+          "zDepth": 1,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="item-preview__head"
+              >
+                <h2
+                  className="heading-mid"
+                >
+                  List 1
+                </h2>
+              </div>,
+              <div
+                className="item-preview__content"
+              >
+                <PropertySingle
+                  label="Items"
+                >
+                  <span>
+                    3
+                  </span>
+                </PropertySingle>
+                <PropertySingle
+                  label="Last viewed"
+                >
+                  Dec 11. 2018
+                </PropertySingle>
+                <PropertySingle
+                  label="Average rating"
+                >
+                  <RatingStars
+                    className="el-center"
+                    colorActive="#00adb5"
+                    colorUnactive="#ccc"
+                    iconSize={24}
+                    length={5}
+                    stars={2}
+                  />
+                </PropertySingle>
+              </div>,
+            ],
+            "className": "item-preview__inner",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h2
+                  className="heading-mid"
+                >
+                  List 1
+                </h2>,
+                "className": "item-preview__head",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "List 1",
+                  "className": "heading-mid",
+                },
+                "ref": null,
+                "rendered": "List 1",
+                "type": "h2",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <PropertySingle
+                    label="Items"
+                  >
+                    <span>
+                      3
+                    </span>
+                  </PropertySingle>,
+                  <PropertySingle
+                    label="Last viewed"
+                  >
+                    Dec 11. 2018
+                  </PropertySingle>,
+                  <PropertySingle
+                    label="Average rating"
+                  >
+                    <RatingStars
+                      className="el-center"
+                      colorActive="#00adb5"
+                      colorUnactive="#ccc"
+                      iconSize={24}
+                      length={5}
+                      stars={2}
+                    />
+                  </PropertySingle>,
+                ],
+                "className": "item-preview__content",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <span>
+                      3
+                    </span>,
+                    "label": "Items",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": 3,
+                    },
+                    "ref": null,
+                    "rendered": 3,
+                    "type": "span",
+                  },
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "Dec 11. 2018",
+                    "label": "Last viewed",
+                  },
+                  "ref": null,
+                  "rendered": "Dec 11. 2018",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": <RatingStars
+                      className="el-center"
+                      colorActive="#00adb5"
+                      colorUnactive="#ccc"
+                      iconSize={24}
+                      length={5}
+                      stars={2}
+                    />,
+                    "label": "Average rating",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": "el-center",
+                      "colorActive": "#00adb5",
+                      "colorUnactive": "#ccc",
+                      "iconSize": 24,
+                      "length": 5,
+                      "stars": 2,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

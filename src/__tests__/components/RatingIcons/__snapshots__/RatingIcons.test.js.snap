@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RatingIcons
+    iconSize={20}
+    mini={true}
+    onCorrect={[MockFunction]}
+    onWrong={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <FloatingActionButton
+          backgroundColor="#f00"
+          className="rating-icons__btn rating-icons__btn--wrong"
+          disabled={false}
+          mini={true}
+          onClick={[MockFunction]}
+          secondary={false}
+          zDepth={2}
+        >
+          <ActionThumbDown
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          />
+        </FloatingActionButton>,
+        <FloatingActionButton
+          backgroundColor="#0f0"
+          className="rating-icons__btn rating-icons__btn--correct"
+          disabled={false}
+          mini={true}
+          onClick={[MockFunction]}
+          secondary={false}
+          zDepth={2}
+        >
+          <ActionThumbUp
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          />
+        </FloatingActionButton>,
+      ],
+      "className": "rating-icons",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#f00",
+          "children": <ActionThumbDown
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          />,
+          "className": "rating-icons__btn rating-icons__btn--wrong",
+          "disabled": false,
+          "mini": true,
+          "onClick": [MockFunction],
+          "secondary": false,
+          "zDepth": 2,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "style": Object {
+              "width": 20,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backgroundColor": "#0f0",
+          "children": <ActionThumbUp
+            style={
+              Object {
+                "width": 20,
+              }
+            }
+          />,
+          "className": "rating-icons__btn rating-icons__btn--correct",
+          "disabled": false,
+          "mini": true,
+          "onClick": [MockFunction],
+          "secondary": false,
+          "zDepth": 2,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "style": Object {
+              "width": 20,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <FloatingActionButton
+            backgroundColor="#f00"
+            className="rating-icons__btn rating-icons__btn--wrong"
+            disabled={false}
+            mini={true}
+            onClick={[MockFunction]}
+            secondary={false}
+            zDepth={2}
+          >
+            <ActionThumbDown
+              style={
+                Object {
+                  "width": 20,
+                }
+              }
+            />
+          </FloatingActionButton>,
+          <FloatingActionButton
+            backgroundColor="#0f0"
+            className="rating-icons__btn rating-icons__btn--correct"
+            disabled={false}
+            mini={true}
+            onClick={[MockFunction]}
+            secondary={false}
+            zDepth={2}
+          >
+            <ActionThumbUp
+              style={
+                Object {
+                  "width": 20,
+                }
+              }
+            />
+          </FloatingActionButton>,
+        ],
+        "className": "rating-icons",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#f00",
+            "children": <ActionThumbDown
+              style={
+                Object {
+                  "width": 20,
+                }
+              }
+            />,
+            "className": "rating-icons__btn rating-icons__btn--wrong",
+            "disabled": false,
+            "mini": true,
+            "onClick": [MockFunction],
+            "secondary": false,
+            "zDepth": 2,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "style": Object {
+                "width": 20,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backgroundColor": "#0f0",
+            "children": <ActionThumbUp
+              style={
+                Object {
+                  "width": 20,
+                }
+              }
+            />,
+            "className": "rating-icons__btn rating-icons__btn--correct",
+            "disabled": false,
+            "mini": true,
+            "onClick": [MockFunction],
+            "secondary": false,
+            "zDepth": 2,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "style": Object {
+                "width": 20,
+              },
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

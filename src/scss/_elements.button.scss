@@ -1,0 +1,11 @@
+button {
+    background-color: transparent;
+    border: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+}

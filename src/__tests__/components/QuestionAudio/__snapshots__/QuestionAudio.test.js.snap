@@ -1,0 +1,123 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionAudio
+    audioSrc="file.mp3"
+    wordID="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <AudioIconApiLoad
+        autoplay={true}
+        hideIfNoSource={false}
+        loadFromApiIfNotAvailable={true}
+        onReady={[Function]}
+        size={100}
+        sizeIcon={60}
+        src="file.mp3"
+        wordID="school"
+      />,
+      "className": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "autoplay": true,
+        "hideIfNoSource": false,
+        "loadFromApiIfNotAvailable": true,
+        "onReady": [Function],
+        "size": 100,
+        "sizeIcon": 60,
+        "src": "file.mp3",
+        "wordID": "school",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <AudioIconApiLoad
+          autoplay={true}
+          hideIfNoSource={false}
+          loadFromApiIfNotAvailable={true}
+          onReady={[Function]}
+          size={100}
+          sizeIcon={60}
+          src="file.mp3"
+          wordID="school"
+        />,
+        "className": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoplay": true,
+          "hideIfNoSource": false,
+          "loadFromApiIfNotAvailable": true,
+          "onReady": [Function],
+          "size": 100,
+          "sizeIcon": 60,
+          "src": "file.mp3",
+          "wordID": "school",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

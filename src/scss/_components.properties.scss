@@ -1,0 +1,33 @@
+.property-single {
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: map-get($map: $line-heights, $key: basic);
+}
+
+.property-single--left {
+    text-align: left;
+
+    @include break(sm) {
+        text-align: center;
+    }
+}
+
+.property-single--right {
+    text-align: right;
+
+    @include break(sm) {
+        text-align: center;
+    }
+}
+
+.property-single__label {
+    font-style: italic;
+    font-size: map-get($map: $font-sizes, $key: tiny);
+    opacity: 0.5;
+}
+
+.property-single__value {
+    display: block;
+    font-weight: 700;
+    font-size: map-get($map: $font-sizes, $key: bigger);
+}

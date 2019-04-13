@@ -1,0 +1,40 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: $font-alt;
+    flex-wrap: wrap;
+}
+
+.pagination__item {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid $color-border;
+    margin: 0 2px 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+
+    &:focus,
+    &:hover {
+        background-color: map-get($map: $colors, $key: main);
+        border-color: map-get($map: $colors, $key: main);
+        color: #fff;
+    }
+
+    &.active {
+        border-color: map-get($map: $colors, $key: main);
+        color: map-get($map: $colors, $key: main);
+
+        &:focus,
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+.pagination__item--clean {
+    border-color: transparent;
+}

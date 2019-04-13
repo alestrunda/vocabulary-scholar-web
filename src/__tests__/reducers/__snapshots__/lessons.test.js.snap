@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP_LOAD_STATE handles APP_LOAD_STATE 1`] = `
+Array [
+  "data",
+]
+`;
+
+exports[`LESSON_CREATE handles LESSON_CREATE 1`] = `
+Array [
+  Object {
+    "dateCreated": 1532979984020,
+    "id": "dfg564adfg564adf",
+    "listIDs": Array [
+      "a1",
+      "b2",
+    ],
+    "name": "lesson",
+    "questionsCnt": 30,
+    "rateBy": "type-in",
+    "type": "phrase",
+  },
+]
+`;
+
+exports[`LESSON_LIST_REMOVE handles LESSON_LIST_REMOVE 1`] = `
+Array [
+  Object {
+    "id": "lesson1",
+    "listIDs": Array [
+      "list2",
+      "list3",
+    ],
+    "name": "lesson name",
+    "questionsCnt": 20,
+  },
+]
+`;
+
+exports[`LESSON_RESET_SCORE handles LESSON_RESET_SCORE 1`] = `
+Array [
+  Object {
+    "id": "lesson1",
+    "listIDs": Array [
+      "list1",
+      "list2",
+      "list3",
+    ],
+    "name": "lesson name",
+    "questionsCnt": 20,
+  },
+]
+`;
+
+exports[`LESSON_SET_SCORE handles LESSON_SET_SCORE 1`] = `
+Array [
+  Object {
+    "bestScore": 0.5,
+    "finishedIn": 150,
+    "id": "lesson1",
+    "listIDs": Array [
+      "list1",
+      "list2",
+      "list3",
+    ],
+    "name": "lesson name",
+    "questionsCnt": 20,
+  },
+]
+`;
+
+exports[`LESSON_VIEW handles LESSON_VIEW 1`] = `
+Array [
+  Object {
+    "dateViewed": 1532979984031,
+    "id": "lesson1",
+    "listIDs": Array [
+      "list1",
+      "list2",
+      "list3",
+    ],
+    "name": "lesson name",
+    "questionsCnt": 20,
+  },
+]
+`;
+
+exports[`LESSONS_IMPORT does not affect other lessons on LESSONS_IMPORT 1`] = `
+Array [
+  Object {
+    "id": "lesson1",
+    "listIDs": Array [
+      "list1",
+      "list2",
+      "list3",
+    ],
+    "name": "lesson name",
+    "questionsCnt": 20,
+  },
+  Object {
+    "id": "lesson2",
+    "listIDs": Array [
+      "list3",
+      "list4",
+      "list5",
+    ],
+    "name": "lesson 2 name",
+    "questionsCnt": 10,
+  },
+  Object {
+    "dateCreated": 1530826000000,
+    "id": "lesson3",
+    "listIDs": Array [
+      "list10",
+      "list11",
+      "list12",
+    ],
+    "name": "lesson 3 name",
+    "questionsCnt": 500,
+  },
+]
+`;
+
+exports[`LESSONS_IMPORT handles LESSONS_IMPORT 1`] = `
+Array [
+  Object {
+    "id": "lesson1",
+    "listIDs": Array [
+      "list1",
+      "list2",
+      "list3",
+    ],
+    "name": "lesson name",
+    "questionsCnt": 20,
+  },
+  Object {
+    "dateCreated": 1532979984020,
+    "id": "lesson2",
+    "listIDs": Array [
+      "list3",
+      "list4",
+      "list5",
+    ],
+    "name": "lesson 2 name",
+    "questionsCnt": 10,
+  },
+  Object {
+    "dateCreated": 1532979984020,
+    "id": "lesson3",
+    "listIDs": Array [
+      "list10",
+      "list11",
+      "list12",
+    ],
+    "name": "lesson 3 name",
+    "questionsCnt": 500,
+  },
+]
+`;

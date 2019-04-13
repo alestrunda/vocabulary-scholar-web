@@ -1,0 +1,47 @@
+@if $framework-visibility-basic {
+    .hidden {
+        display: none;
+    }
+
+    .visible {
+        display: block;
+    }
+
+    .visible-flex {
+        display: flex;
+    }
+
+    .visible-inline {
+        display: inline-block;
+    }
+}
+
+$display-types: (
+    default: "block",
+    flex: "flex",
+    inline: "inline-block"
+);
+
+@if $framework-visibility-responsive {
+    @each $key, $value in $breakpoints-global {
+        @each $display-name, $display-val in $display-types {
+            $class-middle: "";
+            @if $display-name != "default" {
+                $class-middle: "-#{$display-name}";
+            }
+            .visible-#{$key}#{$class-middle} {
+                @include break($key) {
+                    display: #{$display-val};
+                }
+            }
+        }
+    }
+
+    @each $key, $value in $breakpoints-global {
+        .hidden-#{$key} {
+            @include break($key) {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.animation-spinning {
+    animation: spin 1.5s linear infinite;
+}
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+}
+
+@keyframes text-loading {
+    0% {
+        color: map-get($map: $colors, $key: gray);
+    }
+    50% {
+        color: fade-out(map-get($map: $colors, $key: gray), 0.6);
+    }
+    100% {
+        color: map-get($map: $colors, $key: gray);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}

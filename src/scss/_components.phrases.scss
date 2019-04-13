@@ -1,0 +1,46 @@
+.phrase-excerpt {
+    max-width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+.phrase-word {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-of-type) {
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid $color-border;
+    }
+
+    @include break(sm) {
+        flex-wrap: wrap;
+    }
+}
+
+.phrase-word__action {
+    padding-left: 25px;
+
+    @include break(sm) {
+        width: 100%;
+        padding-left: 0;
+        text-align: right;
+    }
+}
+
+.phrase-word__phrase {
+    flex: 1;
+
+    @include break(sm) {
+        width: 100%;
+        flex: auto;
+        margin-bottom: 5px;
+    }
+}
+
+.phrase-word-question {
+    line-height: 48px;
+}

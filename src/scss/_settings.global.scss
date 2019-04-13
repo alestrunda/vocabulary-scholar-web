@@ -1,0 +1,27 @@
+$base-url: "";
+$images-dir: "../images/";
+
+$font-main: 'Montserrat', sans-serif;
+$font-alt: 'Roboto', sans-serif;
+$font-sizes: (
+    enorm: 30px,
+    huge: 22px,
+    bigger: 18px,
+    big: 16px,
+    default: 15px,
+    small: 14px,
+    xsmall: 13px,
+    tiny: 12px,
+    xtiny: 11px
+);
+$font-weights: (
+    bold: 700,
+    medium: 500,
+    normal: 400,
+    light: 300,
+);
+
+$line-heights: (
+    basic: 1,
+    default: 1.35
+);

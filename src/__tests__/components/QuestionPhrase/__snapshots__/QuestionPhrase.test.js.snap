@@ -1,0 +1,774 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionPhrase
+    disabled={false}
+    endIndex={11}
+    error=""
+    hideIfNotAvailable={false}
+    phrase="Lorem ipsum dolor"
+    startIndex={6}
+    word="abc"
+    wordID="abc_123"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        className="phrase-word-question"
+        onSubmit={[Function]}
+      >
+        Lorem 
+        <TextField
+          autoComplete="off"
+          disabled={false}
+          errorText=""
+          floatingLabelFixed={false}
+          fullWidth={false}
+          id="abc_123"
+          inputStyle={
+            Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            }
+          }
+          multiLine={false}
+          onChange={[Function]}
+          rows={1}
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "maxWidth": 120,
+              "verticalAlign": "middle",
+            }
+          }
+          type="text"
+          underlineShow={true}
+          value=""
+        />
+        <Hint
+          className="mr5"
+          wordID="abc_123"
+        />
+         dolor
+      </form>,
+      "className": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "Lorem ",
+          <TextField
+            autoComplete="off"
+            disabled={false}
+            errorText=""
+            floatingLabelFixed={false}
+            fullWidth={false}
+            id="abc_123"
+            inputStyle={
+              Object {
+                "fontSize": 24,
+                "textAlign": "center",
+              }
+            }
+            multiLine={false}
+            onChange={[Function]}
+            rows={1}
+            style={
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+                "maxWidth": 120,
+                "verticalAlign": "middle",
+              }
+            }
+            type="text"
+            underlineShow={true}
+            value=""
+          />,
+          <Hint
+            className="mr5"
+            wordID="abc_123"
+          />,
+          " dolor",
+        ],
+        "className": "phrase-word-question",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        "Lorem ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoComplete": "off",
+            "disabled": false,
+            "errorText": "",
+            "floatingLabelFixed": false,
+            "fullWidth": false,
+            "id": "abc_123",
+            "inputStyle": Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            },
+            "multiLine": false,
+            "onChange": [Function],
+            "rows": 1,
+            "style": Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "maxWidth": 120,
+              "verticalAlign": "middle",
+            },
+            "type": "text",
+            "underlineShow": true,
+            "value": "",
+          },
+          "ref": Object {
+            "current": null,
+          },
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "mr5",
+            "hint": undefined,
+            "hintType": undefined,
+            "wordID": "abc_123",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        " dolor",
+      ],
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          className="phrase-word-question"
+          onSubmit={[Function]}
+        >
+          Lorem 
+          <TextField
+            autoComplete="off"
+            disabled={false}
+            errorText=""
+            floatingLabelFixed={false}
+            fullWidth={false}
+            id="abc_123"
+            inputStyle={
+              Object {
+                "fontSize": 24,
+                "textAlign": "center",
+              }
+            }
+            multiLine={false}
+            onChange={[Function]}
+            rows={1}
+            style={
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+                "maxWidth": 120,
+                "verticalAlign": "middle",
+              }
+            }
+            type="text"
+            underlineShow={true}
+            value=""
+          />
+          <Hint
+            className="mr5"
+            wordID="abc_123"
+          />
+           dolor
+        </form>,
+        "className": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Lorem ",
+            <TextField
+              autoComplete="off"
+              disabled={false}
+              errorText=""
+              floatingLabelFixed={false}
+              fullWidth={false}
+              id="abc_123"
+              inputStyle={
+                Object {
+                  "fontSize": 24,
+                  "textAlign": "center",
+                }
+              }
+              multiLine={false}
+              onChange={[Function]}
+              rows={1}
+              style={
+                Object {
+                  "marginLeft": 10,
+                  "marginRight": 10,
+                  "maxWidth": 120,
+                  "verticalAlign": "middle",
+                }
+              }
+              type="text"
+              underlineShow={true}
+              value=""
+            />,
+            <Hint
+              className="mr5"
+              wordID="abc_123"
+            />,
+            " dolor",
+          ],
+          "className": "phrase-word-question",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Lorem ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoComplete": "off",
+              "disabled": false,
+              "errorText": "",
+              "floatingLabelFixed": false,
+              "fullWidth": false,
+              "id": "abc_123",
+              "inputStyle": Object {
+                "fontSize": 24,
+                "textAlign": "center",
+              },
+              "multiLine": false,
+              "onChange": [Function],
+              "rows": 1,
+              "style": Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+                "maxWidth": 120,
+                "verticalAlign": "middle",
+              },
+              "type": "text",
+              "underlineShow": true,
+              "value": "",
+            },
+            "ref": Object {
+              "current": null,
+            },
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "mr5",
+              "hint": undefined,
+              "hintType": undefined,
+              "wordID": "abc_123",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " dolor",
+        ],
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`renders correctly when disabled 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionPhrase
+    disabled={true}
+    endIndex={11}
+    error=""
+    hideIfNotAvailable={false}
+    phrase="Lorem ipsum dolor"
+    startIndex={6}
+    word="abc"
+    wordID="abc_123"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        className="phrase-word-question"
+        onSubmit={[Function]}
+      >
+        Lorem 
+        <TextField
+          autoComplete="off"
+          disabled={true}
+          errorText=""
+          floatingLabelFixed={false}
+          fullWidth={false}
+          id="abc_123"
+          inputStyle={
+            Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            }
+          }
+          multiLine={false}
+          onChange={[Function]}
+          rows={1}
+          style={
+            Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "maxWidth": 120,
+              "verticalAlign": "middle",
+            }
+          }
+          type="text"
+          underlineShow={true}
+          value=""
+        />
+        <Hint
+          className="mr5"
+          wordID="abc_123"
+        />
+         dolor
+      </form>,
+      "className": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "Lorem ",
+          <TextField
+            autoComplete="off"
+            disabled={true}
+            errorText=""
+            floatingLabelFixed={false}
+            fullWidth={false}
+            id="abc_123"
+            inputStyle={
+              Object {
+                "fontSize": 24,
+                "textAlign": "center",
+              }
+            }
+            multiLine={false}
+            onChange={[Function]}
+            rows={1}
+            style={
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+                "maxWidth": 120,
+                "verticalAlign": "middle",
+              }
+            }
+            type="text"
+            underlineShow={true}
+            value=""
+          />,
+          <Hint
+            className="mr5"
+            wordID="abc_123"
+          />,
+          " dolor",
+        ],
+        "className": "phrase-word-question",
+        "onSubmit": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        "Lorem ",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoComplete": "off",
+            "disabled": true,
+            "errorText": "",
+            "floatingLabelFixed": false,
+            "fullWidth": false,
+            "id": "abc_123",
+            "inputStyle": Object {
+              "fontSize": 24,
+              "textAlign": "center",
+            },
+            "multiLine": false,
+            "onChange": [Function],
+            "rows": 1,
+            "style": Object {
+              "marginLeft": 10,
+              "marginRight": 10,
+              "maxWidth": 120,
+              "verticalAlign": "middle",
+            },
+            "type": "text",
+            "underlineShow": true,
+            "value": "",
+          },
+          "ref": Object {
+            "current": null,
+          },
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "mr5",
+            "hint": undefined,
+            "hintType": undefined,
+            "wordID": "abc_123",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        " dolor",
+      ],
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          className="phrase-word-question"
+          onSubmit={[Function]}
+        >
+          Lorem 
+          <TextField
+            autoComplete="off"
+            disabled={true}
+            errorText=""
+            floatingLabelFixed={false}
+            fullWidth={false}
+            id="abc_123"
+            inputStyle={
+              Object {
+                "fontSize": 24,
+                "textAlign": "center",
+              }
+            }
+            multiLine={false}
+            onChange={[Function]}
+            rows={1}
+            style={
+              Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+                "maxWidth": 120,
+                "verticalAlign": "middle",
+              }
+            }
+            type="text"
+            underlineShow={true}
+            value=""
+          />
+          <Hint
+            className="mr5"
+            wordID="abc_123"
+          />
+           dolor
+        </form>,
+        "className": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "Lorem ",
+            <TextField
+              autoComplete="off"
+              disabled={true}
+              errorText=""
+              floatingLabelFixed={false}
+              fullWidth={false}
+              id="abc_123"
+              inputStyle={
+                Object {
+                  "fontSize": 24,
+                  "textAlign": "center",
+                }
+              }
+              multiLine={false}
+              onChange={[Function]}
+              rows={1}
+              style={
+                Object {
+                  "marginLeft": 10,
+                  "marginRight": 10,
+                  "maxWidth": 120,
+                  "verticalAlign": "middle",
+                }
+              }
+              type="text"
+              underlineShow={true}
+              value=""
+            />,
+            <Hint
+              className="mr5"
+              wordID="abc_123"
+            />,
+            " dolor",
+          ],
+          "className": "phrase-word-question",
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          "Lorem ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "autoComplete": "off",
+              "disabled": true,
+              "errorText": "",
+              "floatingLabelFixed": false,
+              "fullWidth": false,
+              "id": "abc_123",
+              "inputStyle": Object {
+                "fontSize": 24,
+                "textAlign": "center",
+              },
+              "multiLine": false,
+              "onChange": [Function],
+              "rows": 1,
+              "style": Object {
+                "marginLeft": 10,
+                "marginRight": 10,
+                "maxWidth": 120,
+                "verticalAlign": "middle",
+              },
+              "type": "text",
+              "underlineShow": true,
+              "value": "",
+            },
+            "ref": Object {
+              "current": null,
+            },
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "className": "mr5",
+              "hint": undefined,
+              "hintType": undefined,
+              "wordID": "abc_123",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          " dolor",
+        ],
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`renders not available 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <QuestionPhrase
+    disabled={false}
+    error=""
+    hideIfNotAvailable={false}
+    phrase="Lorem ipsum dolor"
+    word="abc"
+    wordID="abc_123"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": "Not available",
+      "className": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": "Not available",
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": "Not available",
+        "className": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": "Not available",
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

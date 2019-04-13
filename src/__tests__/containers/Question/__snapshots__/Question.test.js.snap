@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Question
+    onAnswer={[MockFunction]}
+    onWordSetRating={[MockFunction]}
+    rateBy="self-rating"
+    type="word"
+    words={Object {}}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="question__content"
+        >
+          <QuestionWord
+            onQuestionReady={[Function]}
+          />
+        </div>,
+        <div
+          className="m15"
+        />,
+        <RatingIcons
+          className="rating-icons--big mt25"
+          iconSize={30}
+          mini={false}
+          onCorrect={[Function]}
+          onWrong={[Function]}
+          style={
+            Object {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            }
+          }
+        />,
+        false,
+      ],
+      "className": "question",
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <QuestionWord
+            onQuestionReady={[Function]}
+          />,
+          "className": "question__content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "onQuestionReady": [Function],
+            "word": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "m15",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "className": "rating-icons--big mt25",
+          "iconSize": 30,
+          "mini": false,
+          "onCorrect": [Function],
+          "onWrong": [Function],
+          "style": Object {
+            "marginLeft": "auto",
+            "marginRight": "auto",
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="question__content"
+          >
+            <QuestionWord
+              onQuestionReady={[Function]}
+            />
+          </div>,
+          <div
+            className="m15"
+          />,
+          <RatingIcons
+            className="rating-icons--big mt25"
+            iconSize={30}
+            mini={false}
+            onCorrect={[Function]}
+            onWrong={[Function]}
+            style={
+              Object {
+                "marginLeft": "auto",
+                "marginRight": "auto",
+              }
+            }
+          />,
+          false,
+        ],
+        "className": "question",
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <QuestionWord
+              onQuestionReady={[Function]}
+            />,
+            "className": "question__content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "onQuestionReady": [Function],
+              "word": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "m15",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "className": "rating-icons--big mt25",
+            "iconSize": 30,
+            "mini": false,
+            "onCorrect": [Function],
+            "onWrong": [Function],
+            "style": Object {
+              "marginLeft": "auto",
+              "marginRight": "auto",
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

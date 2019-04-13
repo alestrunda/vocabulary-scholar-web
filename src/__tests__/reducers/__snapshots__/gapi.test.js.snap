@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles GAPI_CLIENT_STATUS_UPDATE 1`] = `
+Object {
+  "isClientSignedIn": true,
+  "isStoreLoadedFromDrive": undefined,
+}
+`;
+
+exports[`handles GAPI_SET_STORE_FILE_ID 1`] = `
+Object {
+  "storeFileID": "abc123",
+}
+`;
+
+exports[`handles GAPI_STORE_LOADED_FROM_DRIVE 1`] = `
+Object {
+  "isStoreLoadedFromDrive": true,
+  "storeFileID": "abc123",
+}
+`;

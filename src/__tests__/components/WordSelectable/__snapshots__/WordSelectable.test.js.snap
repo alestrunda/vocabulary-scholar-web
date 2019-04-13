@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WordSelectable
+    checked={false}
+    id="school"
+    word="school"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="word-selectable__check"
+        >
+          <Checkbox
+            checked={false}
+            disabled={false}
+            labelPosition="right"
+          />
+        </div>,
+        <div
+          className="word-preview__inner word-preview__inner--left-big"
+        >
+          <div
+            className="el-full"
+          >
+            <h3
+              className="word-preview__title"
+            >
+              School
+            </h3>
+          </div>
+        </div>,
+        undefined,
+      ],
+      "className": "word-preview word-selectable",
+      "onClick": [Function],
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <Checkbox
+            checked={false}
+            disabled={false}
+            labelPosition="right"
+          />,
+          "className": "word-selectable__check",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "checked": false,
+            "disabled": false,
+            "labelPosition": "right",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="el-full"
+          >
+            <h3
+              className="word-preview__title"
+            >
+              School
+            </h3>
+          </div>,
+          "className": "word-preview__inner word-preview__inner--left-big",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <h3
+              className="word-preview__title"
+            >
+              School
+            </h3>,
+            "className": "el-full",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "School",
+              "className": "word-preview__title",
+            },
+            "ref": null,
+            "rendered": "School",
+            "type": "h3",
+          },
+          "type": "div",
+        },
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="word-selectable__check"
+          >
+            <Checkbox
+              checked={false}
+              disabled={false}
+              labelPosition="right"
+            />
+          </div>,
+          <div
+            className="word-preview__inner word-preview__inner--left-big"
+          >
+            <div
+              className="el-full"
+            >
+              <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>
+            </div>
+          </div>,
+          undefined,
+        ],
+        "className": "word-preview word-selectable",
+        "onClick": [Function],
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <Checkbox
+              checked={false}
+              disabled={false}
+              labelPosition="right"
+            />,
+            "className": "word-selectable__check",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "checked": false,
+              "disabled": false,
+              "labelPosition": "right",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="el-full"
+            >
+              <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>
+            </div>,
+            "className": "word-preview__inner word-preview__inner--left-big",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h3
+                className="word-preview__title"
+              >
+                School
+              </h3>,
+              "className": "el-full",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "School",
+                "className": "word-preview__title",
+              },
+              "ref": null,
+              "rendered": "School",
+              "type": "h3",
+            },
+            "type": "div",
+          },
+          "type": "div",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

@@ -1,0 +1,13 @@
+.autocomplete {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+
+    @include z-index(autocomplete);
+}
+
+.autocomplete__empty {
+    padding: 5px 10px;
+}

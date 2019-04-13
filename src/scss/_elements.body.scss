@@ -1,0 +1,15 @@
+body {
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	line-height: map-get($line-heights, default);
+	font-family: $font-main;
+	font-size: map-get($font-sizes, default);
+	font-weight: 300;
+	color: map-get($colors, dark);
+	min-height: 100vh;
+
+	@include break(sm) {
+		font-size: map-get($font-sizes, small);
+	}
+}

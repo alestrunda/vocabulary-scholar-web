@@ -1,0 +1,25 @@
+/* text aligning */
+
+$text_aligns: (left, center, right, justify);
+
+//text align basic
+@if $framework-text-aligns-basic {
+    @each $item in $text_aligns {
+        .text-#{$item} {
+            text-align: #{$item};
+        }
+    }
+}
+
+//text align responsive
+@if $framework-text-aligns-responsive {
+    @each $key, $value in $breakpoints-global {
+        @each $item in $text_aligns {
+            .text-#{$key}-#{$item} {
+                @include break($key) {
+                    text-align: #{$item};
+                }
+            }
+        }
+    }
+}

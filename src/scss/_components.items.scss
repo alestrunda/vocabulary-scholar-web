@@ -1,0 +1,28 @@
+.item-preview {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.item-preview__content {
+    padding: 20px 15px 0;
+    overflow: auto;
+}
+
+.item-preview__head {
+    padding: 15px 15px 10px;
+    background-color: map-get($map: $colors, $key: main);
+    color: #fff;
+    border-bottom: 1px solid $color-border;
+    word-wrap: break-word;
+}
+
+.item-preview__inner {
+    display: block;
+    transition: background-color 0.3s ease-out, color 0.2s ease-out;
+
+    &:focus,
+    &:hover {
+        background-color: fade-out($color: map-get($map: $colors, $key: main), $amount: 0.75);
+    }
+}

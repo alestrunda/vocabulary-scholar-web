@@ -1,0 +1,37 @@
+.article {
+  a {
+    text-decoration: underline;
+
+    &:focus,
+    &:hover {
+      color: map-get($map: $colors, $key: main);
+      text-decoration: none;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin-bottom: 15px;
+    text-align: center;
+
+    &:not(:first-child) {
+      margin-top: 40px;
+    }
+  }
+
+  p {
+    margin-bottom: 15px;
+  }
+
+  .list-arrows {
+    margin-bottom: 15px;
+  }
+}
+
+.article__footer {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-align: right;
+}

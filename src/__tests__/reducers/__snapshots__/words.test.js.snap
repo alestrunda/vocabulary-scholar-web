@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`APP_LOAD_STATE handles APP_LOAD_STATE 1`] = `
+Object {
+  "word_id": Object {
+    "id": "word_id",
+    "word": "word",
+  },
+}
+`;
+
+exports[`WORD_ADD_PHRASE adds phrase on WORD_ADD_PHRASE 1`] = `
+Object {
+  "word_id": Object {
+    "id": "word_id",
+    "phrases": Array [
+      Object {
+        "endIndex": 10,
+        "id": "30of2dfsju405enx",
+        "phrase": "Lorem ipsum dolor",
+        "startIndex": 6,
+      },
+    ],
+    "word": "test",
+  },
+}
+`;
+
+exports[`WORD_EDIT_PHRASE edits phrase on WORD_EDIT_PHRASE 1`] = `
+Object {
+  "word_id": Object {
+    "id": "word_id",
+    "phrases": Array [
+      Object {
+        "endIndex": 2,
+        "id": "abc123",
+        "phrase": "New phrase",
+        "startIndex": 1,
+      },
+      Object {
+        "endIndex": 11,
+        "id": "abc456",
+        "phrase": "Lorem ipsum dolor sit 2",
+        "startIndex": 6,
+      },
+    ],
+  },
+}
+`;
+
+exports[`WORD_REMOVE_PHRASE removes phrase on WORD_REMOVE_PHRASE 1`] = `
+Object {
+  "word_id": Object {
+    "id": "word_id",
+    "phrases": Array [
+      Object {
+        "endIndex": 11,
+        "id": "abc456",
+        "phrase": "Lorem ipsum dolor sit 2",
+        "startIndex": 6,
+      },
+    ],
+  },
+}
+`;
+
+exports[`WORD_SET_AUDIO_SRC handles WORD_SET_AUDIO_SRC 1`] = `
+Object {
+  "word_id": Object {
+    "audioSrc": "file.mp3",
+    "id": "word_id",
+    "word": "word",
+  },
+}
+`;
+
+exports[`WORD_SET_CUSTOM_FIELD handles WORD_SET_CUSTOM_FIELD 1`] = `
+Object {
+  "word_id": Object {
+    "customField": "my data",
+    "id": "word_id",
+    "word": "word",
+  },
+}
+`;
+
+exports[`WORD_SET_FAVORITE adds word on WORD_SET_FAVORITE 1`] = `
+Object {
+  "dateAdded": 1530828000000,
+  "id": "word_id",
+  "word": "word",
+}
+`;
+
+exports[`WORD_SET_IMAGE_SRC handles WORD_SET_IMAGE_SRC 1`] = `
+Object {
+  "word_id": Object {
+    "id": "word_id",
+    "imageSrc": "file.jpg",
+    "word": "word",
+  },
+}
+`;
+
+exports[`WORDS_IMPORT handles WORDS_IMPORT 1`] = `
+Object {
+  "word2_id": Object {
+    "dateAdded": 1530828000000,
+    "dateViewed": 1530828000000,
+    "id": "word2_id",
+    "ratings": Array [
+      2,
+      1,
+    ],
+    "word": "word 2",
+  },
+  "word3_id": Object {
+    "dateAdded": 1530828000000,
+    "dateViewed": 1530828000000,
+    "id": "word3_id",
+    "ratings": Array [
+      1,
+      1,
+    ],
+    "word": "word 3",
+  },
+  "word_id": Object {
+    "dateAdded": 1530828000000,
+    "dateViewed": 1530828000000,
+    "id": "word_id",
+    "ratings": Array [
+      2,
+      3,
+      4,
+      4,
+      1,
+    ],
+    "word": "word",
+  },
+}
+`;

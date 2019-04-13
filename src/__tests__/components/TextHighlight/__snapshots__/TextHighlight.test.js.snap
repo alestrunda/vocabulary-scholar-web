@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextHightlight
+    classNameHighlighted="text-highlight"
+    onHighlight={[MockFunction]}
+  >
+    Lorem Ipsum
+  </TextHightlight>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="highlighting-text__text"
+        >
+          Lorem Ipsum
+        </div>,
+        undefined,
+      ],
+      "className": "highlighting-text",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lorem Ipsum",
+          "className": "highlighting-text__text",
+        },
+        "ref": null,
+        "rendered": "Lorem Ipsum",
+        "type": "div",
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="highlighting-text__text"
+          >
+            Lorem Ipsum
+          </div>,
+          undefined,
+        ],
+        "className": "highlighting-text",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lorem Ipsum",
+            "className": "highlighting-text__text",
+          },
+          "ref": null,
+          "rendered": "Lorem Ipsum",
+          "type": "div",
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`renders correctly highlighted part 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextHightlight
+    classNameHighlighted="text-highlight"
+    end={5}
+    onHighlight={[MockFunction]}
+    start={0}
+  >
+    Lorem Ipsum
+  </TextHightlight>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="highlighting-text__text"
+        >
+          Lorem Ipsum
+        </div>,
+        <div
+          className="highlighting-text__over"
+        >
+          <span
+            data-testid="part-1"
+          >
+            
+          </span>
+          <span
+            className="text-highlight"
+            data-testid="part-2"
+          >
+            Lorem
+          </span>
+          <span
+            data-testid="part-3"
+          >
+             Ipsum
+          </span>
+        </div>,
+      ],
+      "className": "highlighting-text",
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Lorem Ipsum",
+          "className": "highlighting-text__text",
+        },
+        "ref": null,
+        "rendered": "Lorem Ipsum",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <span
+              data-testid="part-1"
+            >
+              
+            </span>,
+            <span
+              className="text-highlight"
+              data-testid="part-2"
+            >
+              Lorem
+            </span>,
+            <span
+              data-testid="part-3"
+            >
+               Ipsum
+            </span>,
+          ],
+          "className": "highlighting-text__over",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "data-testid": "part-1",
+            },
+            "ref": null,
+            "rendered": "",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Lorem",
+              "className": "text-highlight",
+              "data-testid": "part-2",
+            },
+            "ref": null,
+            "rendered": "Lorem",
+            "type": "span",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": " Ipsum",
+              "data-testid": "part-3",
+            },
+            "ref": null,
+            "rendered": " Ipsum",
+            "type": "span",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="highlighting-text__text"
+          >
+            Lorem Ipsum
+          </div>,
+          <div
+            className="highlighting-text__over"
+          >
+            <span
+              data-testid="part-1"
+            >
+              
+            </span>
+            <span
+              className="text-highlight"
+              data-testid="part-2"
+            >
+              Lorem
+            </span>
+            <span
+              data-testid="part-3"
+            >
+               Ipsum
+            </span>
+          </div>,
+        ],
+        "className": "highlighting-text",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Lorem Ipsum",
+            "className": "highlighting-text__text",
+          },
+          "ref": null,
+          "rendered": "Lorem Ipsum",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <span
+                data-testid="part-1"
+              >
+                
+              </span>,
+              <span
+                className="text-highlight"
+                data-testid="part-2"
+              >
+                Lorem
+              </span>,
+              <span
+                data-testid="part-3"
+              >
+                 Ipsum
+              </span>,
+            ],
+            "className": "highlighting-text__over",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "",
+                "data-testid": "part-1",
+              },
+              "ref": null,
+              "rendered": "",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Lorem",
+                "className": "text-highlight",
+                "data-testid": "part-2",
+              },
+              "ref": null,
+              "rendered": "Lorem",
+              "type": "span",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " Ipsum",
+                "data-testid": "part-3",
+              },
+              "ref": null,
+              "rendered": " Ipsum",
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

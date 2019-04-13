@@ -1,0 +1,24 @@
+.chart-bar {
+    max-width: 100%;
+
+    svg {
+        max-width: 100%;
+    }
+}
+
+.chart-donut {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chart-donut__val {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 28px;
+    font-weight: 700;
+    font-family: $font-alt;
+}

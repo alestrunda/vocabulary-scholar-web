@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <TextHighlightMenu
+    onPhraseSelected={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="el-relative"
+        >
+          <TextHightlight
+            classNameHighlighted="text-highlight"
+            onHighlight={[Function]}
+          >
+            
+          </TextHightlight>
+        </div>,
+        <Snackbar
+          autoHideDuration={4000}
+          message=""
+          onRequestClose={[Function]}
+          open={false}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <TextHightlight
+              classNameHighlighted="text-highlight"
+              onHighlight={[Function]}
+            >
+              
+            </TextHightlight>,
+            false,
+          ],
+          "className": "el-relative",
+          "style": undefined,
+        },
+        "ref": Object {
+          "current": null,
+        },
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "",
+              "classNameHighlighted": "text-highlight",
+              "onHighlight": [Function],
+            },
+            "ref": null,
+            "rendered": "",
+            "type": [Function],
+          },
+          false,
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoHideDuration": 4000,
+          "message": "",
+          "onRequestClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="el-relative"
+          >
+            <TextHightlight
+              classNameHighlighted="text-highlight"
+              onHighlight={[Function]}
+            >
+              
+            </TextHightlight>
+          </div>,
+          <Snackbar
+            autoHideDuration={4000}
+            message=""
+            onRequestClose={[Function]}
+            open={false}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <TextHightlight
+                classNameHighlighted="text-highlight"
+                onHighlight={[Function]}
+              >
+                
+              </TextHightlight>,
+              false,
+            ],
+            "className": "el-relative",
+            "style": undefined,
+          },
+          "ref": Object {
+            "current": null,
+          },
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "",
+                "classNameHighlighted": "text-highlight",
+                "onHighlight": [Function],
+              },
+              "ref": null,
+              "rendered": "",
+              "type": [Function],
+            },
+            false,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoHideDuration": 4000,
+            "message": "",
+            "onRequestClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

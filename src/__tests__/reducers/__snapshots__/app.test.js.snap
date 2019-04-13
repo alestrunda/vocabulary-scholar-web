@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles APP_INFO_MESSAGE 1`] = `
+Object {
+  "infoMessage": "test message",
+}
+`;
+
+exports[`handles APP_LOAD_STATE 1`] = `
+Object {
+  "isStateLoaded": true,
+  "storageType": "local-storage",
+}
+`;
+
+exports[`handles APP_STORAGE_TYPE 1`] = `
+Object {
+  "storageType": "local-storage",
+}
+`;
+
+exports[`handles APP_WARNING 1`] = `
+Object {
+  "warning": "something went wrong",
+  "warningType": "user-error",
+}
+`;
+
+exports[`handles APP_WARNING_CLOSE 1`] = `
+Object {
+  "user-error": false,
+}
+`;
+
+exports[`handles GAPI_CLIENT_STATUS_UPDATE 1`] = `Object {}`;
+
+exports[`sets active page on APP_WORD_LIST_SET_PAGE 1`] = `
+Object {
+  "wordListsActivePages": Object {
+    "undefined": 5,
+  },
+}
+`;

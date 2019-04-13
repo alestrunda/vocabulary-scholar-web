@@ -1,0 +1,682 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <PhrasesWord
+    onAddPhrase={[MockFunction]}
+    onEditPhrase={[MockFunction]}
+    onPhraseSelected={[MockFunction]}
+    onWordRemovePhrase={[MockFunction]}
+    phraseSelected="Lorem ipsum"
+    phrases={Array []}
+    word="car"
+    wordID="car"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          None
+        </p>,
+        <div
+          className="mb20"
+        />,
+        <div
+          className="text-center"
+        >
+          <RaisedButton
+            data-test-id="btn-new-phrase"
+            disabled={false}
+            fullWidth={false}
+            label="New phrase"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />
+        </div>,
+        <Popup
+          data-test-id="popup-new-phrase"
+          isActive={true}
+          onClose={[Function]}
+          title="New phrase"
+        >
+          <div
+            className="text-center"
+          >
+            <PhraseWordSettings
+              onSubmit={[Function]}
+              phrase={
+                Object {
+                  "phrase": "Lorem ipsum",
+                }
+              }
+              submitText="Save phrase"
+              word="car"
+              wordID="car"
+            />
+          </div>
+        </Popup>,
+        <Popup
+          isActive={false}
+          onClose={[Function]}
+          title="Edit phrase"
+        >
+          <div
+            className="text-center"
+          >
+            <PhraseWordSettings
+              onSubmit={[Function]}
+              submitText="Edit phrase"
+              word="car"
+              wordID="car"
+            />
+          </div>
+        </Popup>,
+        <Snackbar
+          autoHideDuration={4000}
+          message="New phrase added"
+          onRequestClose={[Function]}
+          open={false}
+        />,
+        <Snackbar
+          autoHideDuration={4000}
+          message="Selected phrase was changed"
+          onRequestClose={[Function]}
+          open={false}
+        />,
+        <Snackbar
+          autoHideDuration={4000}
+          message="Selected phrase was removed"
+          onRequestClose={[Function]}
+          open={false}
+        />,
+        undefined,
+      ],
+      "className": undefined,
+      "style": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "None",
+        },
+        "ref": null,
+        "rendered": "None",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [],
+          "className": "mb20",
+        },
+        "ref": null,
+        "rendered": Array [],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <RaisedButton
+            data-test-id="btn-new-phrase"
+            disabled={false}
+            fullWidth={false}
+            label="New phrase"
+            labelPosition="after"
+            onClick={[Function]}
+            primary={true}
+            secondary={false}
+          />,
+          "className": "text-center",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "data-test-id": "btn-new-phrase",
+            "disabled": false,
+            "fullWidth": false,
+            "label": "New phrase",
+            "labelPosition": "after",
+            "onClick": [Function],
+            "primary": true,
+            "secondary": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <div
+            className="text-center"
+          >
+            <PhraseWordSettings
+              onSubmit={[Function]}
+              phrase={
+                Object {
+                  "phrase": "Lorem ipsum",
+                }
+              }
+              submitText="Save phrase"
+              word="car"
+              wordID="car"
+            />
+          </div>,
+          "data-test-id": "popup-new-phrase",
+          "isActive": true,
+          "onClose": [Function],
+          "title": "New phrase",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <PhraseWordSettings
+              onSubmit={[Function]}
+              phrase={
+                Object {
+                  "phrase": "Lorem ipsum",
+                }
+              }
+              submitText="Save phrase"
+              word="car"
+              wordID="car"
+            />,
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "onSubmit": [Function],
+              "phrase": Object {
+                "phrase": "Lorem ipsum",
+              },
+              "submitText": "Save phrase",
+              "word": "car",
+              "wordID": "car",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <div
+            className="text-center"
+          >
+            <PhraseWordSettings
+              onSubmit={[Function]}
+              submitText="Edit phrase"
+              word="car"
+              wordID="car"
+            />
+          </div>,
+          "isActive": false,
+          "onClose": [Function],
+          "title": "Edit phrase",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <PhraseWordSettings
+              onSubmit={[Function]}
+              submitText="Edit phrase"
+              word="car"
+              wordID="car"
+            />,
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "onSubmit": [Function],
+              "phrase": undefined,
+              "submitText": "Edit phrase",
+              "word": "car",
+              "wordID": "car",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoHideDuration": 4000,
+          "message": "New phrase added",
+          "onRequestClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoHideDuration": 4000,
+          "message": "Selected phrase was changed",
+          "onRequestClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoHideDuration": 4000,
+          "message": "Selected phrase was removed",
+          "onRequestClose": [Function],
+          "open": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      undefined,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            None
+          </p>,
+          <div
+            className="mb20"
+          />,
+          <div
+            className="text-center"
+          >
+            <RaisedButton
+              data-test-id="btn-new-phrase"
+              disabled={false}
+              fullWidth={false}
+              label="New phrase"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />
+          </div>,
+          <Popup
+            data-test-id="popup-new-phrase"
+            isActive={true}
+            onClose={[Function]}
+            title="New phrase"
+          >
+            <div
+              className="text-center"
+            >
+              <PhraseWordSettings
+                onSubmit={[Function]}
+                phrase={
+                  Object {
+                    "phrase": "Lorem ipsum",
+                  }
+                }
+                submitText="Save phrase"
+                word="car"
+                wordID="car"
+              />
+            </div>
+          </Popup>,
+          <Popup
+            isActive={false}
+            onClose={[Function]}
+            title="Edit phrase"
+          >
+            <div
+              className="text-center"
+            >
+              <PhraseWordSettings
+                onSubmit={[Function]}
+                submitText="Edit phrase"
+                word="car"
+                wordID="car"
+              />
+            </div>
+          </Popup>,
+          <Snackbar
+            autoHideDuration={4000}
+            message="New phrase added"
+            onRequestClose={[Function]}
+            open={false}
+          />,
+          <Snackbar
+            autoHideDuration={4000}
+            message="Selected phrase was changed"
+            onRequestClose={[Function]}
+            open={false}
+          />,
+          <Snackbar
+            autoHideDuration={4000}
+            message="Selected phrase was removed"
+            onRequestClose={[Function]}
+            open={false}
+          />,
+          undefined,
+        ],
+        "className": undefined,
+        "style": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "None",
+          },
+          "ref": null,
+          "rendered": "None",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [],
+            "className": "mb20",
+          },
+          "ref": null,
+          "rendered": Array [],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <RaisedButton
+              data-test-id="btn-new-phrase"
+              disabled={false}
+              fullWidth={false}
+              label="New phrase"
+              labelPosition="after"
+              onClick={[Function]}
+              primary={true}
+              secondary={false}
+            />,
+            "className": "text-center",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "data-test-id": "btn-new-phrase",
+              "disabled": false,
+              "fullWidth": false,
+              "label": "New phrase",
+              "labelPosition": "after",
+              "onClick": [Function],
+              "primary": true,
+              "secondary": false,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              className="text-center"
+            >
+              <PhraseWordSettings
+                onSubmit={[Function]}
+                phrase={
+                  Object {
+                    "phrase": "Lorem ipsum",
+                  }
+                }
+                submitText="Save phrase"
+                word="car"
+                wordID="car"
+              />
+            </div>,
+            "data-test-id": "popup-new-phrase",
+            "isActive": true,
+            "onClose": [Function],
+            "title": "New phrase",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <PhraseWordSettings
+                onSubmit={[Function]}
+                phrase={
+                  Object {
+                    "phrase": "Lorem ipsum",
+                  }
+                }
+                submitText="Save phrase"
+                word="car"
+                wordID="car"
+              />,
+              "className": "text-center",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "onSubmit": [Function],
+                "phrase": Object {
+                  "phrase": "Lorem ipsum",
+                },
+                "submitText": "Save phrase",
+                "word": "car",
+                "wordID": "car",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": <div
+              className="text-center"
+            >
+              <PhraseWordSettings
+                onSubmit={[Function]}
+                submitText="Edit phrase"
+                word="car"
+                wordID="car"
+              />
+            </div>,
+            "isActive": false,
+            "onClose": [Function],
+            "title": "Edit phrase",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <PhraseWordSettings
+                onSubmit={[Function]}
+                submitText="Edit phrase"
+                word="car"
+                wordID="car"
+              />,
+              "className": "text-center",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "onSubmit": [Function],
+                "phrase": undefined,
+                "submitText": "Edit phrase",
+                "word": "car",
+                "wordID": "car",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoHideDuration": 4000,
+            "message": "New phrase added",
+            "onRequestClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoHideDuration": 4000,
+            "message": "Selected phrase was changed",
+            "onRequestClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoHideDuration": 4000,
+            "message": "Selected phrase was removed",
+            "onRequestClose": [Function],
+            "open": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        undefined,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;

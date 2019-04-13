@@ -1,0 +1,19 @@
+$grid_cols: 12;
+
+$framework-grid-break-spacing: true;
+$framework-grid-break-ordering: true;
+$framework-grid-vertical-aligns: true;
+
+$grid-item-break-spacing-start: 1;
+$grid-item-break-spacing-end: 10;
+$grid-item-break-spacing-step: 5;
+
+$grid-item-break-ordering-start: 1;
+$grid-item-break-ordering-end: 3;
+
+$grid_sizes: (
+    big: 40,
+    default: 30,
+    mid: 20,
+    small: 10,
+);

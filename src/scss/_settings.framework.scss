@@ -1,0 +1,24 @@
+/* spacing */
+$framework-spacing-reset: true;
+$framework-spacing-direction-reset: true;
+$framework-spacing-direction: true;
+$framework-spacing-single-step-5: true;
+$framework-spacing-single-step-10: true;
+
+//margins 5px - 45px, step 5px
+$framework-spacing-single-step-5-start: 1;
+$framework-spacing-single-step-5-end: 9;
+
+//margins 50px - 100px, step 10px
+$framework-spacing-single-step-10-start: 5;
+$framework-spacing-single-step-10-end: 10;
+
+
+/* text aligns */
+$framework-text-aligns-basic: true;
+$framework-text-aligns-responsive: true;
+
+
+/* visibility */
+$framework-visibility-basic: true;
+$framework-visibility-responsive: true;

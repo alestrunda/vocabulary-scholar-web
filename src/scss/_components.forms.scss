@@ -1,0 +1,31 @@
+.form-icon {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-icon--small {
+    margin-bottom: 10px;
+}
+
+.form-icon__icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+
+    .form-icon--small & {
+        left: 10px;
+    }
+}
+
+.search-form {
+    position: relative;
+}
+
+.search-form__loader {
+    position: absolute;
+    top: 50%;
+    right: 13px;
+    transform: translateY(-50%);
+}

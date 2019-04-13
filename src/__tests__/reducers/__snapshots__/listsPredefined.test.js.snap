@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`handles LIST_SORT 1`] = `
+Object {
+  "main": Object {
+    "id": "main",
+    "isDescSort": false,
+    "name": "Main",
+    "sortBy": "rating",
+    "wordIDs": Array [
+      "1",
+      "2",
+    ],
+    "wordIDsSorted": Array [
+      undefined,
+      undefined,
+    ],
+  },
+}
+`;
