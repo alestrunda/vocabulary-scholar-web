@@ -40,7 +40,15 @@ tests the App using `Jest`
 
 ### `npm run cypress:open`
 
+(make sure the app it running locally)
+
 opens cypress test manager for E2E testing
+
+### `npm run cypress:run`
+
+(make sure the app it running locally)
+
+runs cypress headless browser for E2E testing
 
 ### `npm run generate-sample`
 
