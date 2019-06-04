@@ -72,7 +72,7 @@ export const parseWordResponse = response => {
     }
     return {
       entries: entries,
-      category: lexicalEntry.lexicalCategory,
+      category: lexicalEntry.lexicalCategory.text,
       pronunciations: pronunciations,
     };
   });
