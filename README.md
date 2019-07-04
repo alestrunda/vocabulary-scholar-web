@@ -20,6 +20,8 @@ You can search for a `word`, save it as favorite, set your own word rating, even
 
 Build as SPA using react, redux, material-ui, sass...
 
+**Sample data generator**: generates sample data from 10k english words, random ratings, phrases, lists... Scripts in folder *sample-data-generator*. Data makes no sense, just for testing purposes to see how app handles different amounts of data. Saved in file *sample-data.json*. To change generator settings open file generator.js and change the variables at the top of the file.
+
 [User guide](http://vocabulary-scholar-user-guide.alestrunda.cz)
 
 [Documentation](http://vocabulary-scholar-docs.alestrunda.cz/)
@@ -52,4 +54,4 @@ runs cypress headless browser for E2E testing
 
 ### `npm run generate-sample`
 
-generates sample data from 10k english words, random ratings, phrases, lists... Data makes no sense, just for testing purposes to see how app handles different amounts of data. Saved in file *sample-data.json*.
+generates sample data from 10k english words, random ratings, phrases, lists... Saved in file *sample-data.json*.
