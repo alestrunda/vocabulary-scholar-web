@@ -39,32 +39,32 @@ ShallowWrapper {
         <li
           className="undefined__item"
         >
-          <Link
+          <ForwardRef
             className="undefined__link"
             to="/word/school"
           >
             school
-          </Link>
+          </ForwardRef>
         </li>,
         <li
           className="undefined__item"
         >
-          <Link
+          <ForwardRef
             className="undefined__link"
             to="/word/car"
           >
             car
-          </Link>
+          </ForwardRef>
         </li>,
         <li
           className="undefined__item"
         >
-          <Link
+          <ForwardRef
             className="undefined__link"
             to="/word/travel"
           >
             travel
-          </Link>
+          </ForwardRef>
         </li>,
       ],
       "className": undefined,
@@ -77,19 +77,19 @@ ShallowWrapper {
         "key": "school",
         "nodeType": "host",
         "props": Object {
-          "children": <Link
+          "children": <ForwardRef
             className="undefined__link"
             to="/word/school"
           >
             school
-          </Link>,
+          </ForwardRef>,
           "className": "undefined__item",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "school",
             "className": "undefined__link",
@@ -97,7 +97,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "school",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "Link",
+            "propTypes": Object {
+              "innerRef": [Function],
+              "onClick": [Function],
+              "replace": [Function],
+              "target": [Function],
+              "to": [Function],
+            },
+            "render": [Function],
+          },
         },
         "type": "li",
       },
@@ -106,19 +117,19 @@ ShallowWrapper {
         "key": "car",
         "nodeType": "host",
         "props": Object {
-          "children": <Link
+          "children": <ForwardRef
             className="undefined__link"
             to="/word/car"
           >
             car
-          </Link>,
+          </ForwardRef>,
           "className": "undefined__item",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "car",
             "className": "undefined__link",
@@ -126,7 +137,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "car",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "Link",
+            "propTypes": Object {
+              "innerRef": [Function],
+              "onClick": [Function],
+              "replace": [Function],
+              "target": [Function],
+              "to": [Function],
+            },
+            "render": [Function],
+          },
         },
         "type": "li",
       },
@@ -135,19 +157,19 @@ ShallowWrapper {
         "key": "travel",
         "nodeType": "host",
         "props": Object {
-          "children": <Link
+          "children": <ForwardRef
             className="undefined__link"
             to="/word/travel"
           >
             travel
-          </Link>,
+          </ForwardRef>,
           "className": "undefined__item",
         },
         "ref": null,
         "rendered": Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "class",
+          "nodeType": "function",
           "props": Object {
             "children": "travel",
             "className": "undefined__link",
@@ -155,7 +177,18 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": "travel",
-          "type": [Function],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "displayName": "Link",
+            "propTypes": Object {
+              "innerRef": [Function],
+              "onClick": [Function],
+              "replace": [Function],
+              "target": [Function],
+              "to": [Function],
+            },
+            "render": [Function],
+          },
         },
         "type": "li",
       },
@@ -172,32 +205,32 @@ ShallowWrapper {
           <li
             className="undefined__item"
           >
-            <Link
+            <ForwardRef
               className="undefined__link"
               to="/word/school"
             >
               school
-            </Link>
+            </ForwardRef>
           </li>,
           <li
             className="undefined__item"
           >
-            <Link
+            <ForwardRef
               className="undefined__link"
               to="/word/car"
             >
               car
-            </Link>
+            </ForwardRef>
           </li>,
           <li
             className="undefined__item"
           >
-            <Link
+            <ForwardRef
               className="undefined__link"
               to="/word/travel"
             >
               travel
-            </Link>
+            </ForwardRef>
           </li>,
         ],
         "className": undefined,
@@ -210,19 +243,19 @@ ShallowWrapper {
           "key": "school",
           "nodeType": "host",
           "props": Object {
-            "children": <Link
+            "children": <ForwardRef
               className="undefined__link"
               to="/word/school"
             >
               school
-            </Link>,
+            </ForwardRef>,
             "className": "undefined__item",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "school",
               "className": "undefined__link",
@@ -230,7 +263,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "school",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "Link",
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            },
           },
           "type": "li",
         },
@@ -239,19 +283,19 @@ ShallowWrapper {
           "key": "car",
           "nodeType": "host",
           "props": Object {
-            "children": <Link
+            "children": <ForwardRef
               className="undefined__link"
               to="/word/car"
             >
               car
-            </Link>,
+            </ForwardRef>,
             "className": "undefined__item",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "car",
               "className": "undefined__link",
@@ -259,7 +303,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "car",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "Link",
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            },
           },
           "type": "li",
         },
@@ -268,19 +323,19 @@ ShallowWrapper {
           "key": "travel",
           "nodeType": "host",
           "props": Object {
-            "children": <Link
+            "children": <ForwardRef
               className="undefined__link"
               to="/word/travel"
             >
               travel
-            </Link>,
+            </ForwardRef>,
             "className": "undefined__item",
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "class",
+            "nodeType": "function",
             "props": Object {
               "children": "travel",
               "className": "undefined__link",
@@ -288,7 +343,18 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": "travel",
-            "type": [Function],
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "displayName": "Link",
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            },
           },
           "type": "li",
         },
@@ -308,6 +374,7 @@ ShallowWrapper {
           "getChildContext": Object {
             "calledByRenderer": false,
           },
+          "getDerivedStateFromError": true,
           "getDerivedStateFromProps": Object {
             "hasShouldComponentUpdateBug": false,
           },
@@ -318,6 +385,8 @@ ShallowWrapper {
         },
       },
     },
+    Symbol(enzyme.__providerValues__): undefined,
   },
+  Symbol(enzyme.__providerValues__): Map {},
 }
 `;
