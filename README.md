@@ -6,9 +6,9 @@ The whole *vocabulary scholar* project consists of 3 parts:
 
 - Mobile app made with react native
 
-- Web app (current) made with react
+- [Web app](https://vocabulary-scholar.netlify.app/) (current repo) made with react
 
-- Server API made with node.js
+- Server API made with node.js or serverless
 
 Web and mobile apps are quite the same.
 
