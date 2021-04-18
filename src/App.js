@@ -94,8 +94,8 @@ class App extends Component {
         );
       })
       .catch(() => {
-        const warningType = 'googleDriveNotAvailable';
-        this.props.onAppWarning('Google Drive is not available.', warningType);
+        //const warningType = 'googleDriveNotAvailable';
+        //this.props.onAppWarning('Google Drive is not available.', warningType);
         const clientSignedIn = false;
         const isInitialLoad = true;
         this.props.onGapiClientStatusUpdate(clientSignedIn, isInitialLoad);
@@ -254,7 +254,4 @@ const mapDispatchToProps = dispatch => ({
   onAppStateNotLoaded: () => dispatch(appStateNotLoaded()),
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(App);
+export default connect(mapStateToProps, mapDispatchToProps)(App);
