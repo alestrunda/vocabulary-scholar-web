@@ -1,6 +1,6 @@
 # Vocabulary scholar - Web
 
-`Project for my bachelor's thesis.`
+**Project for my bachelor's thesis as UPOL.**
 
 The whole *vocabulary scholar* project consists of 3 parts:
 
@@ -8,7 +8,7 @@ The whole *vocabulary scholar* project consists of 3 parts:
 
 - [Web app](https://vocabulary-scholar.netlify.app/) (current repo) made with react
 
-- Server API made with node.js or serverless
+- Server API made with node.js and another one using serverless (both doing the same thing)
 
 Web and mobile apps are quite the same.
 
